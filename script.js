@@ -12,9 +12,11 @@ form.addEventListener('submit', function(e){
     .then((result) => result.json())
     .then((data) => {
 
+        //const follow = collect(data.followers);
+
         document.getElementById("result").innerHTML = `
             <img src="${data.avatar_url}"/>
-            <p></p>
+            <p>"${data.followers}"</p>
         `
 
     })
