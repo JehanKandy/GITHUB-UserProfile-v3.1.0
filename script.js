@@ -13,7 +13,7 @@ form.addEventListener('submit', function(e){
     .then((data) => {
 
         document.getElementById("result").innerHTML = `
-            <img src="${data.avater_url}"/>
+            <img src="${data.avatar_url}"/>
         `
 
     })
