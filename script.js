@@ -11,6 +11,10 @@ form.addEventListener('submit', function(e){
     fetch("https://api.github.com/users/"+oname)
     .then((result) => result.json())
     .then((data) => {
-        
+
+        document.getElementById("result").innerHTML = `
+            <img src="${data.avater_url}"/>
+        `
+
     })
 })
