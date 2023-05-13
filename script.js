@@ -16,7 +16,7 @@ form.addEventListener('submit', function(e){
 
         document.getElementById("result").innerHTML = `
             <img src="${data.avatar_url}"/>
-            <p>"${data.followers}"</p>
+            <p>${data.followers}</p>
         `
 
     })
