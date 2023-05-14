@@ -14,6 +14,7 @@ view the Project at [GITHUB UserProfile](https://jehankandy.github.io/GITHUB-Use
 - - - Followers and Followings
 - - - Company
 - - - is Hireable
+- - - public repositories
 
 <h1>Developers</h1>
   <h4>JehanKandy</h4>
