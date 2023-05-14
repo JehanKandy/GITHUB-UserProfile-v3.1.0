@@ -13,5 +13,6 @@ h1{
     font-weight: bold;
 }
 .data-user{
-    font-weight: lighter;
+    font-weight: 400;
+    font-size: 25px;
 }
