@@ -3,8 +3,6 @@
 
 view the Project at [GITHUB UserProfile](https://jehankandy.github.io/GITHUB-UserProfile/)
 
-<br><br>
-
 GitHub API - [GitHub API](https://api.github.com/)
 
 # Releases
