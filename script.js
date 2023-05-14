@@ -14,6 +14,13 @@ form.addEventListener('submit', function(e){
 
         //const follow = collect(data.followers);
 
+        if(data.hireable == true){
+            var hire = "hireable";
+        }
+        else{
+            var hire = "not hireable";
+        }
+
         document.getElementById("result").innerHTML = `
         <div class='row first'>
             <div class='col col-lg-4'>
@@ -35,6 +42,9 @@ form.addEventListener('submit', function(e){
                 </div> 
                 <div class='row'>
                     <span class='title'>Your Company : <span class='data-user'>${data.company}</span></span>
+                </div> 
+                <div class='row'>
+                    <span class='title'>Your are : <span class='data-user'>${hire}</span></span>                    
                 </div> 
             </div>
         </div>
