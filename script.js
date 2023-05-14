@@ -28,7 +28,7 @@ form.addEventListener('submit', function(e){
                 </div> 
                 <br><br>              
                 <div class='row'>
-                    <span class='title'>BIO : <span class='data-user'>${data.bio}</span></span>
+                    <span class='title'>You are following : <span class='data-user'>${data.following}</span> users</span>
                 </div> 
             </div>
         </div>
