@@ -8,9 +8,10 @@ h1{
 .first{
     margin-top: 20px;
 }
-.title, .data-user{
+.title {
     font-size: 25px;
-}
-.title{
     font-weight: bold;
+}
+.data-user{
+    font-weight: lighter;
 }
