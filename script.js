@@ -20,7 +20,12 @@ form.addEventListener('submit', function(e){
                 <img src="${data.avatar_url}" class='profile-img'/>
             </div>
             <div class='col-7'>
-                <p>${data.name}</p>
+                <div class='row'>
+                    <p>${data.name}</p>
+                </div>     
+                <div class='row'>
+                    <p>${data.name}</p>
+                </div>               
             </div>
         </div>
         `
