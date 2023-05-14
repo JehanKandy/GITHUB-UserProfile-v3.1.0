@@ -15,8 +15,8 @@ form.addEventListener('submit', function(e){
         //const follow = collect(data.followers);
 
         document.getElementById("result").innerHTML = `
-            <img src="${data.avatar_url}"/>
-            <p>${data.user_organizations_url}</p>
+            <img src="${data.avatar_url}" class='profile-img'/>
+            <p>${data.name}</p>
         `
 
     })
