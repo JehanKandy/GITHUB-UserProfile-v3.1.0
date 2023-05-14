@@ -13,4 +13,4 @@ view the Project at [GITHUB UserProfile](https://jehankandy.github.io/GITHUB-Use
 <h1>Copyright and license</h1>
 
 
-Copyright 2021–2023 [JehanKandy](https://github.com/JehanKandy). <b>Online Job Apply Testing System</b> released under the [MIT License](https://github.com/JehanKandy/Online-Job-Apply-System/blob/main/LICENSE)
+Copyright 2021–2023 [JehanKandy](https://github.com/JehanKandy). <b>GITHUB UserProfile</b> released under the [MIT License](https://github.com/JehanKandy/Online-Job-Apply-System/blob/main/LICENSE)
