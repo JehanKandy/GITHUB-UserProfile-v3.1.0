@@ -24,8 +24,12 @@ form.addEventListener('submit', function(e){
                     <span class='title'>Username : <span class='data-user'>${data.name}</span></span>
                 </div>     
                 <div class='row'>
-                    <p>${data.name}</p>
-                </div>               
+                    <span class='title'>BIO : <span class='data-user'>${data.bio}</span></span>
+                </div> 
+                <br><br>              
+                <div class='row'>
+                    <span class='title'>BIO : <span class='data-user'>${data.bio}</span></span>
+                </div> 
             </div>
         </div>
         `
