@@ -4,6 +4,8 @@
 view the Project at [GITHUB UserProfile](https://jehankandy.github.io/GITHUB-UserProfile/)
 
 
+# Releases
+
 <h1>Developers</h1>
   <h4>JehanKandy</h4>
 
