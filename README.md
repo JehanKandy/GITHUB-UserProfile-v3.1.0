@@ -9,7 +9,9 @@ view the Project at [GITHUB UserProfile](https://jehankandy.github.io/GITHUB-Use
 - releases 0.1.0 (14 May 2023)
 - - Basic Version of Project
 - - adding
-- - - 
+- - - Username
+- - - Bio
+- - - Followers and Followings
 
 <h1>Developers</h1>
   <h4>JehanKandy</h4>
