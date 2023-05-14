@@ -22,9 +22,6 @@ form.addEventListener('submit', function(e){
             <div class='col-7'>
                 <p>${data.name}</p>
             </div>
-            <div class='col-7'>
-                <p>${data.name}</p>
-            </div>
         </div>
         `
 
