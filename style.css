@@ -8,3 +8,7 @@ h1{
 .first{
     margin-top: 20px;
 }
+.title{
+    font-size: 25px;
+    font-weight: bold;
+}
