@@ -30,6 +30,9 @@ form.addEventListener('submit', function(e){
                 <div class='row'>
                     <span class='title'>You are following : <span class='data-user'>${data.following}</span> users</span>
                 </div> 
+                <div class='row'>
+                    <span class='title'>You are following : <span class='data-user'>${data.following}</span> users</span>
+                </div> 
             </div>
         </div>
         `
