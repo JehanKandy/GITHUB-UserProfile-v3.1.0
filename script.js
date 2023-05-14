@@ -28,10 +28,10 @@ form.addEventListener('submit', function(e){
                 </div> 
                 <br><br>              
                 <div class='row'>
-                    <span class='title'>You are following : <span class='data-user'>${data.following}</span> users</span>
+                    <span class='title'>You are following <span class='data-user'>${data.following}</span> users</span>
                 </div> 
                 <div class='row'>
-                    <span class='title'>You are following : <span class='data-user'>${data.following}</span> users</span>
+                    <span class='title'>You have <span class='data-user'>${data.followers}</span> Followers</span>
                 </div> 
             </div>
         </div>
