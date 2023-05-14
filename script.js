@@ -16,10 +16,10 @@ form.addEventListener('submit', function(e){
 
         document.getElementById("result").innerHTML = `
         <div class='row'>
-            <div class='col'>
+            <div class='col col-lg-4'>
                 <img src="${data.avatar_url}" class='profile-img'/>
             </div>
-            <div class='col'>
+            <div class='col-7'>
                 <p>${data.name}</p>
             </div>
         </div>
