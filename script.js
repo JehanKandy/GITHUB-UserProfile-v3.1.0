@@ -33,6 +33,9 @@ form.addEventListener('submit', function(e){
                 <div class='row'>
                     <span class='data-user'>You have <span class='title'>${data.followers}</span> Followers</span>
                 </div> 
+                <div class='row'>
+                    <span class='title'>Your Company : <span class='data-user'>${data.company}</span></span>
+                </div> 
             </div>
         </div>
         `
