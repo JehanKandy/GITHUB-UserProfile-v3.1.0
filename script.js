@@ -52,6 +52,7 @@ form.addEventListener('submit', function(e){
                 </div> 
             </div>
         </div>
+        <hr>
         `
 
     })
