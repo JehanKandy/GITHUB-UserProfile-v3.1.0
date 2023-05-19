@@ -41,6 +41,10 @@ GitHub API - [GitHub API](https://api.github.com/)
 
 # Releases
 
+## releases 0.2.0 (19 May 2023)
+- - Adding custom Github Achievements
+
+
 ## releases 0.1.0 (14 May 2023)
 - - Basic Version of Project
 - - adding
@@ -53,8 +57,7 @@ GitHub API - [GitHub API](https://api.github.com/)
 
 
 
-## releases 0.2.0 (19 May 2023)
-- - Adding custom Github Achievements
+
 
 
 
