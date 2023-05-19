@@ -17,8 +17,8 @@ GitHub API - [GitHub API](https://api.github.com/)
 - The Following tabel is the all Achievements and how to earn that Achievements
 
 
-| Custom Github Achievements | How to earn | Achievement Status |
-|:-------------:|:----------:|:----------:|
+| Title || Custom Github Achievements | How to earn | Achievement Status |
+|:--------:||:-------------:|:----------:|:----------:|
 | <img src="https://github.com/JehanKandy/GITHUB-UserProfile/blob/master/images/bronze%20followers.png?raw=true" width="250" height="150">           |  You Should have 25 Followers | Earnables |
 | Mysql         | Laravel    |
 | CSS           |            |
