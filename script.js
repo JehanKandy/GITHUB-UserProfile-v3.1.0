@@ -21,6 +21,10 @@ form.addEventListener('submit', function(e){
             var hire = "not hireable";
         }
 
+        if(data.public_repos >= 50){
+            var repo = "over 50";
+        }
+
         document.getElementById("result").innerHTML = `
         <div class='row first'>
             <div class='col col-lg-4'>
