@@ -31,6 +31,12 @@ form.addEventListener('submit', function(e){
             var repo = "over 50, ovaer 100 and over 250";
         }
 
+
+        if(data.followers >= 25 && data.followers < 50){
+            var your_followers = "over 25";
+        }
+        else if(data.followers >= 50 && )
+
         document.getElementById("result").innerHTML = `
         <div class='row first'>
             <div class='col col-lg-4'>
