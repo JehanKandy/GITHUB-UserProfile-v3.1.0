@@ -17,6 +17,14 @@ GitHub API - [GitHub API](https://api.github.com/)
 - The Following tabel is the all Achievements and how to earn that Achievements
 
 
+| Use Language | Frameworks |
+|:-------------:|:----------:|
+| PHP           |  Bootstrap |
+| Mysql         | Laravel    |
+| CSS           |            |
+| Javascript    |            |
+
+
 # Releases
 
 ## releases 0.1.0 (14 May 2023)
