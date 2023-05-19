@@ -38,6 +38,10 @@ form.addEventListener('submit', function(e){
         else if(data.followers >= 50 && data.followers < 100){
             var your_followers = "over 25 and over 50";
         }
+        else if(data.followers >= 50 && data.followers < 100){
+            var your_followers = "over 25 and over 50";
+        }
+
 
         document.getElementById("result").innerHTML = `
         <div class='row first'>
