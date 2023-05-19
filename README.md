@@ -54,14 +54,7 @@ GitHub API - [GitHub API](https://api.github.com/)
 <hr>
 
 ## releases 0.2.0 (19 May 2023)
-- - Basic Version of Project
-- - adding
-- - - Username
-- - - Bio
-- - - Followers and Followings
-- - - Company
-- - - is Hireable
-- - - public repositories
+- - Adding custom Github Achievements
 
 <hr>
 
