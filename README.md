@@ -7,6 +7,8 @@ GitHub API - [GitHub API](https://api.github.com/)
 
 # About
 
+This Project is davelop using [GitHub API (Application Programming Interface)](https://api.github.com/)
+
 # Releases
 
 ## releases 0.1.0 (14 May 2023)
