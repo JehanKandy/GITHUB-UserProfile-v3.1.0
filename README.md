@@ -17,7 +17,7 @@ GitHub API - [GitHub API](https://api.github.com/)
 - The Following tabel is the all Achievements and how to earn that Achievements
 
 
-| Use Language | Frameworks |
+| Custom Github Achievements | How to earn |
 |:-------------:|:----------:|
 | PHP           |  Bootstrap |
 | Mysql         | Laravel    |
