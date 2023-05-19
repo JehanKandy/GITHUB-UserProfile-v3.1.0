@@ -33,9 +33,9 @@ GitHub API - [GitHub API](https://api.github.com/)
 
 | Title | Custom Github Achievements | How to earn | Achievement Status |
 |:--------:|:-------------:|:----------:|:----------:|
-| 100 Stars  | <img src="https://github.com/JehanKandy/GITHUB-UserProfile/blob/master/images/bronze%20followers.png?raw=true" width="250" height="150">           |  You Should have 25 Stars | Being tested  |
-| 50 Stars | <img src="https://github.com/JehanKandy/GITHUB-UserProfile/blob/master/images/siler%20followers.png?raw=true" width="250" height="150">           |  You Should have 50 Stars | Being tested  |
-| 100 Stars | <img src="https://github.com/JehanKandy/GITHUB-UserProfile/blob/master/images/gold%20followers.png?raw=true" width="250" height="150">           |  You Should have 100 Stars | Being tested  |
+| 100 Stars  | <img src="https://github.com/JehanKandy/GITHUB-UserProfile/blob/master/images/bronze%20followers.png?raw=true" width="250" height="150">           |  You Should have 100 Stars | Being tested  |
+| 250 Stars | <img src="https://github.com/JehanKandy/GITHUB-UserProfile/blob/master/images/siler%20followers.png?raw=true" width="250" height="150">           |  You Should have 250 Stars | Being tested  |
+| 500 Stars | <img src="https://github.com/JehanKandy/GITHUB-UserProfile/blob/master/images/gold%20followers.png?raw=true" width="250" height="150">           |  You Should have 500 Stars | Being tested  |
 
 
 # Releases
