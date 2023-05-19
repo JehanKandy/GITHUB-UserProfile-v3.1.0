@@ -41,7 +41,7 @@ GitHub API - [GitHub API](https://api.github.com/)
 
 # Releases
 
-## releases 0.2.0 (19 May 2023)
+## releases 0.2.0 (19 May 2023) - (Latest)
 - - Adding custom Github Achievements
 
 
