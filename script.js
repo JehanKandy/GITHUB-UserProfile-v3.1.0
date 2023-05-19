@@ -24,6 +24,7 @@ form.addEventListener('submit', function(e){
         if(data.public_repos >= 50){
             var repo = "over 50";
         }
+        else if(data.public_repos >)
 
         document.getElementById("result").innerHTML = `
         <div class='row first'>
