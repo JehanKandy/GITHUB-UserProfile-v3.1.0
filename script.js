@@ -22,7 +22,7 @@ form.addEventListener('submit', function(e){
         }
 
         if(data.public_repos >= 50 && data.public_repos < 100){
-            var repo = "over 50";
+            var repo = "<img src='https://github.com/JehanKandy/GITHUB-UserProfile/blob/master/images/bronze%20repo.png' class=''>";
         }
         else if(data.public_repos >= 100 && data.public_repos < 250){
             var repo = "over 50 and ovaer 100";
