@@ -33,13 +33,13 @@ form.addEventListener('submit', function(e){
 
 
         if(data.followers >= 25 && data.followers < 50){
-            var your_followers = "over 25";
+            var your_followers = "<img src='https://github.com/JehanKandy/GITHUB-UserProfile/blob/master/images/bronze%20followers.png?raw=true' class='achie-img'>";
         }
         else if(data.followers >= 50 && data.followers < 100){
-            var your_followers = "over 25 and over 50";
+            var your_followers = "<img src='https://github.com/JehanKandy/GITHUB-UserProfile/blob/master/images/bronze%20followers.png?raw=true' class='achie-img'>";
         }
         else if(data.followers >= 100){
-            var your_followers = "over 25, over 50 and over 100";
+            var your_followers = "<img src='https://github.com/JehanKandy/GITHUB-UserProfile/blob/master/images/bronze%20followers.png?raw=true' class='achie-img'>";
         }
 
 
