@@ -80,7 +80,7 @@ form.addEventListener('submit', function(e){
             <h4>in Repositories</h4>
             <p>${repo}</p>
             <h4>in Followers</h4>
-            <p></p>
+            <p>${your_followers}</p>
         </div>
         `
 
