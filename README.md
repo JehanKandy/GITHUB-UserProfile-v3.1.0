@@ -7,7 +7,9 @@ GitHub API - [GitHub API](https://api.github.com/)
 
 # About
 
-This Project is davelop using [GitHub API (Application Programming Interface)](https://api.github.com/)
+This Project is davelop using [GitHub API (Application Programming Interface)](https://api.github.com/). And this Project is Under Development current version is 0.2.0 (19 May 2023)
+<br>
+and 0.2.0 (19 May 2023) version have custom Github Achievements. The Achievements are in Basic level ()
 
 # Releases
 
