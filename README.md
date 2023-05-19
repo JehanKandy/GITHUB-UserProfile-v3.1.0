@@ -50,6 +50,19 @@ GitHub API - [GitHub API](https://api.github.com/)
 - - - Company
 - - - is Hireable
 - - - public repositories
+
+<hr>
+
+## releases 0.2.0 (14 May 2023)
+- - Basic Version of Project
+- - adding
+- - - Username
+- - - Bio
+- - - Followers and Followings
+- - - Company
+- - - is Hireable
+- - - public repositories
+
 <hr>
 
 <h1>Developers</h1>
