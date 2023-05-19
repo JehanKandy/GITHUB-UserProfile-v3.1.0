@@ -22,6 +22,9 @@ GitHub API - [GitHub API](https://api.github.com/)
 | 25 Followers | <img src="https://github.com/JehanKandy/GITHUB-UserProfile/blob/master/images/bronze%20followers.png?raw=true" width="250" height="150">           |  You Should have 25 Followers | Earnable |
 | 50 Followers | <img src="https://github.com/JehanKandy/GITHUB-UserProfile/blob/master/images/siler%20followers.png?raw=true" width="250" height="150">           |  You Should have 50 Followers | Earnable |
 | 100 Followers | <img src="https://github.com/JehanKandy/GITHUB-UserProfile/blob/master/images/gold%20followers.png?raw=true" width="250" height="150">           |  You Should have 100 Followers | Earnable |
+| 50 Repositories | <img src="https://github.com/JehanKandy/GITHUB-UserProfile/blob/master/images/bronze%20repo.png?raw=true" width="250" height="150">           |  You Should have 50 Repositories | Earnable |
+| 50 Repositories | <img src="https://github.com/JehanKandy/GITHUB-UserProfile/blob/master/images/siler%20followers.png?raw=true" width="250" height="150">           |  You Should have 50 Repositories | Earnable |
+| 100 Repositories | <img src="https://github.com/JehanKandy/GITHUB-UserProfile/blob/master/images/gold%20followers.png?raw=true" width="250" height="150">           |  You Should have 100 Repositories | Earnable |
 
 
 
