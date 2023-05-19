@@ -21,13 +21,13 @@ form.addEventListener('submit', function(e){
             var hire = "not hireable";
         }
 
-        if(data.public_repos >= 50){
+        if(data.public_repos >= 50 && data.public_repos < 100){
             var repo = "over 50";
         }
-        if(data.public_repos >= 100){
+        else if(data.public_repos >= 100 && data.public_repos < 250){
             var repo = "over 50 and ovaer 100";
         }
-        if(data.public_repos >= 250){
+        else if(data.public_repos >= 250){
             var repo = "over 50, ovaer 100 and over 250";
         }
 
