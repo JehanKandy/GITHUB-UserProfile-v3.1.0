@@ -19,7 +19,7 @@ GitHub API - [GitHub API](https://api.github.com/)
 
 | Custom Github Achievements | How to earn | Achievement Status |
 |:-------------:|:----------:|:----------:|
-| PHP           |  Bootstrap |
+| <img src="https://github.com/JehanKandy/GITHUB-UserProfile/blob/master/images/bronze%20followers.png?raw=true" width="50" height="50">           |  Bootstrap |
 | Mysql         | Laravel    |
 | CSS           |            |
 | Javascript    |            |
