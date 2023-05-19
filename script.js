@@ -53,6 +53,9 @@ form.addEventListener('submit', function(e){
             </div>
         </div>
         <hr>
+        <div class='row'>
+            <h2>My Github Achievements</h2>
+        </div>
         `
 
     })
