@@ -25,10 +25,10 @@ form.addEventListener('submit', function(e){
             var repo = "<img src='https://github.com/JehanKandy/GITHUB-UserProfile/blob/master/images/bronze%20repo.png?raw=true' class='achie-img'>";
         }
         else if(data.public_repos >= 100 && data.public_repos < 250){
-            var repo = "<img src='https://github.com/JehanKandy/GITHUB-UserProfile/blob/master/images/bronze%20repo.png?raw=true' class='achie-img'><img src='https://github.com/JehanKandy/GITHUB-UserProfile/blob/master/images/siler%20followers.png?raw=true' class='achie-img'>";
+            var repo = "<img src='https://github.com/JehanKandy/GITHUB-UserProfile/blob/master/images/bronze%20repo.png?raw=true' class='achie-img'><img src='https://github.com/JehanKandy/GITHUB-UserProfile/blob/master/images/siler%20repo.png?raw=true' class='achie-img'>";
         }
         else if(data.public_repos >= 250){
-            var repo = "<img src='https://github.com/JehanKandy/GITHUB-UserProfile/blob/master/images/bronze%20repo.png?raw=true' class='achie-img'><img src='https://github.com/JehanKandy/GITHUB-UserProfile/blob/master/images/siler%20followers.png?raw=true' class='achie-img'>";
+            var repo = "<img src='https://github.com/JehanKandy/GITHUB-UserProfile/blob/master/images/bronze%20repo.png?raw=true' class='achie-img'><img src='https://github.com/JehanKandy/GITHUB-UserProfile/blob/master/images/siler%20repo.png?raw=true' class='achie-img'>";
         }
 
 
