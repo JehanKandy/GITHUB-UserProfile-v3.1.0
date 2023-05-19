@@ -51,12 +51,12 @@ GitHub API - [GitHub API](https://api.github.com/)
 - - - is Hireable
 - - - public repositories
 
-<hr>
+
 
 ## releases 0.2.0 (19 May 2023)
 - - Adding custom Github Achievements
 
-<hr>
+
 
 <h1>Developers</h1>
   <h4>JehanKandy</h4>
