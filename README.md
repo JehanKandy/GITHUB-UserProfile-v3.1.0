@@ -12,6 +12,10 @@ GitHub API - [GitHub API](https://api.github.com/)
 
 - and 0.2.0 (19 May 2023) version have custom Github Achievements. The Achievements are in Basic level (more updated Achievements will in future versions)
 
+
+- The Following tabel is the all Achievements and how to earn that Achievements
+
+
 # Releases
 
 ## releases 0.1.0 (14 May 2023)
