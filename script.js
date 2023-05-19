@@ -27,8 +27,8 @@ form.addEventListener('submit', function(e){
         if(data.public_repos >= 100){
             var repo = "over 50 and ovaer 100";
         }
-        if(data.public_repos >= 100){
-            var repo = "over 50 and ovaer 100";
+        if(data.public_repos >= 250){
+            var repo = "over 50, ovaer 100 and over 250";
         }
 
         document.getElementById("result").innerHTML = `
