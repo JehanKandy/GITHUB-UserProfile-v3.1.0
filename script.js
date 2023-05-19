@@ -22,10 +22,10 @@ form.addEventListener('submit', function(e){
         }
 
         if(data.public_repos >= 50 && data.public_repos < 100){
-            var repo = "<img src='https://github.com/JehanKandy/GITHUB-UserProfile/blob/master/images/bronze%20repo.png' class=''>";
+            var repo = "<img src='https://github.com/JehanKandy/GITHUB-UserProfile/blob/master/images/bronze%20repo.png' class='achie-img'>";
         }
         else if(data.public_repos >= 100 && data.public_repos < 250){
-            var repo = "over 50 and ovaer 100";
+            var repo = "<img src='https://github.com/JehanKandy/GITHUB-UserProfile/blob/master/images/bronze%20followers.png?raw=true' class='achie-img'>";
         }
         else if(data.public_repos >= 250){
             var repo = "over 50, ovaer 100 and over 250";
