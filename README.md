@@ -45,9 +45,9 @@ GitHub API - [GitHub API](https://api.github.com/)
 # Releases
 
 ## release 0.3.0 (20 May 2023) - (Latest)
-- - User Organizations
-- - some of the Followers
-- - some of following
+- - Adding User Organizations
+- - Adding some of the Followers
+- - Adding some of following
 
 
 ## release 0.2.0 (19 May 2023) 
