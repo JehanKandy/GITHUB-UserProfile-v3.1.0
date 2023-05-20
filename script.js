@@ -107,7 +107,7 @@ form.addEventListener('submit', function(e){
     .then((result_folllowing) => result_folllowing.json())
     .then((data_following) => {
 
-        var myfollowing
+        var myfollowing = document.getElementById('following');
 
     })
 
