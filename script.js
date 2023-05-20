@@ -109,7 +109,7 @@ form.addEventListener('submit', function(e){
 
         var myfollowing = document.getElementById('following');
 
-        let countfollowing = '';
+        let countfollowing = '<hr><h2>Some of I Following</h2>';
         
         for(let i = 0; i < data_following.length; i++){
             //countfollowing += '<div>' + data_following[i].login + '</div>';
