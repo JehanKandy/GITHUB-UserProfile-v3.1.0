@@ -97,6 +97,8 @@ form.addEventListener('submit', function(e){
         countFollowers += '<div>' + data_follow[i].login + '</div>';
     }
 
+    followers.innerHTML = countFollowers;
+
     })
 
 })
