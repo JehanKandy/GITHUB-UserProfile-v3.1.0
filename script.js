@@ -91,6 +91,9 @@ form.addEventListener('submit', function(e){
 
     var followers = document.getElementById('result2');
 
+    let countFollowers = '';
+
+    
 
     })
 
