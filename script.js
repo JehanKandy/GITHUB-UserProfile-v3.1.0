@@ -120,10 +120,17 @@ form.addEventListener('submit', function(e){
     })
 
     fetch("https://api.github.com/users/"+oname+"/orgs")
-    .then((result_folllowing) => result_folllowing.json())
-    .then((data_following) => {
+    .then((result_myorg) => result_myorg.json())
+    .then((data_myorg) => {
 
-        var myorg = document.getElementById('');
+        var myorg = document.getElementById('org');
+
+        let countorg = '';
+
+        for(let i = 0; i < data_myorg.length; i++){
+            //countfollowing += '<div>' + data_myorg[i].login + '</div>';
+            countfollowing += "<img src='" + data_myorg[i].avatar_url + "' class='follower-img'>";
+        }
 
     })
 })
