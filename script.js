@@ -109,6 +109,14 @@ form.addEventListener('submit', function(e){
 
         var myfollowing = document.getElementById('following');
 
+        let countfollowing = '';
+        
+        for(let i = 0; i < data_following.length; i++){
+            //countfollowing += '<div>' + data_following[i].login + '</div>';
+            countfollowing += "<img src='" + data_following[i].avatar_url + "' class='follower-img'>";
+        }
+
+        myfollowing.innerHTML = countfollowing;
     })
 
 })
