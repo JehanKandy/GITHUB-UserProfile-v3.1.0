@@ -82,6 +82,7 @@ form.addEventListener('submit', function(e){
             <h4>in Followers</h4>
             <p>${your_followers}</p>
         </div>
+        <hr>
         `
     })
 
@@ -94,7 +95,9 @@ form.addEventListener('submit', function(e){
     let countFollowers = '';
 
     for(let i = 0; i < data_follow.length; i++){
-        countFollowers += '<div>' + data_follow[i].login + '</div>';
+        //countFollowers += '<div>' + data_follow[i].login + '</div>';
+        countFollowers += "<img src='" + data_follow[i].avatar_url + "'>";
+
     }
 
     followers.innerHTML = countFollowers;
