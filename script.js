@@ -90,7 +90,7 @@ form.addEventListener('submit', function(e){
     .then((data_follow) => {
 
         document.getElementById("result2").innerHTML = `
-        
+            Hi all
         `
     })
 
