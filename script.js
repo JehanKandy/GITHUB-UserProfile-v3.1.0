@@ -103,4 +103,11 @@ form.addEventListener('submit', function(e){
         followers.innerHTML = countFollowers;
     })
 
+    fetch("https://api.github.com/users/"+oname+"/followers")
+    .then((result_folllow) => result_folllow.json())
+    .then((data_follow) => {
+
+
+    })
+
 })
