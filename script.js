@@ -132,5 +132,7 @@ form.addEventListener('submit', function(e){
             countorg += "<img src='" + data_myorg[i].avatar_url + "' class='follower-img'>";
         }
 
+        myorg.innerHTML = countorg;
+
     })
 })
