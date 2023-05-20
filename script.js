@@ -91,7 +91,7 @@ form.addEventListener('submit', function(e){
 
         for(let i = 0; i < data_follow.length; i++){
             document.getElementById("result2").innerHTML = `
-                <p>Username : </p>
+                <p>Username : ${data_follow[1].login}</p>
             `
         }
 
