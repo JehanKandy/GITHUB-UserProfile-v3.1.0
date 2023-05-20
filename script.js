@@ -128,8 +128,8 @@ form.addEventListener('submit', function(e){
         let countorg = '';
 
         for(let i = 0; i < data_myorg.length; i++){
-            //countfollowing += '<div>' + data_myorg[i].login + '</div>';
-            countfollowing += "<img src='" + data_myorg[i].avatar_url + "' class='follower-img'>";
+            //countorg += '<div>' + data_myorg[i].login + '</div>';
+            countorg += "<img src='" + data_myorg[i].avatar_url + "' class='follower-img'>";
         }
 
     })
