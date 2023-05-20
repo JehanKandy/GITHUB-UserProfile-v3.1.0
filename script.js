@@ -89,7 +89,7 @@ form.addEventListener('submit', function(e){
     .then((result_folllow) => result_folllow.json())
     .then((data_follow) => {
 
-
+    var followers = document.getElementById('result2');
 
 
     })
