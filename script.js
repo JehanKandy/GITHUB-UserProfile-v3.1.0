@@ -92,8 +92,6 @@ form.addEventListener('submit', function(e){
         document.getElementById("result2").innerHTML = `
             <hr>
 
-            <p>${data_follow.toString()}</p>
-
 
         `
     })
