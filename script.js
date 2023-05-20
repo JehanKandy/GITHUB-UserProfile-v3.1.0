@@ -89,6 +89,9 @@ form.addEventListener('submit', function(e){
     .then((result_folllow) => result_folllow.json())
     .then((data_follow) => {
 
+        document.getElementById("result2").innerHTML = `
+        
+        `
     })
 
 })
