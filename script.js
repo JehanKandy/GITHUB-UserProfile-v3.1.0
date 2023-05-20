@@ -91,18 +91,17 @@ form.addEventListener('submit', function(e){
     .then((result_folllow) => result_folllow.json())
     .then((data_follow) => {
 
-    var followers = document.getElementById('result2');
+        var followers = document.getElementById('result2');
 
-    let countFollowers = '';
+        let countFollowers = '';
 
-    for(let i = 0; i < data_follow.length; i++){
-        //countFollowers += '<div>' + data_follow[i].login + '</div>';
-        countFollowers += "<img src='" + data_follow[i].avatar_url + "' class='follower-img'>";
+        for(let i = 0; i < data_follow.length; i++){
+            //countFollowers += '<div>' + data_follow[i].login + '</div>';
+            countFollowers += "<img src='" + data_follow[i].avatar_url + "' class='follower-img'>";
 
-    }
+        }
 
-    followers.innerHTML = countFollowers;
-
+        followers.innerHTML = countFollowers;
     })
 
 })
