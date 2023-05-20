@@ -89,9 +89,13 @@ form.addEventListener('submit', function(e){
     .then((result_folllow) => result_folllow.json())
     .then((data_follow) => {
 
+        for(let i = 0; i < data_follow.length; i++){
+            var follow_data = `${data_follow[i].login}`;
+        }
+
         document.getElementById("result2").innerHTML = `
             <hr>
-
+            <p></p>
 
         `
     })
