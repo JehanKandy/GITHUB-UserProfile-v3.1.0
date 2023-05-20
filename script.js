@@ -125,7 +125,7 @@ form.addEventListener('submit', function(e){
 
         var myorg = document.getElementById('org');
 
-        let countorg = '';
+        let countorg = '<hr><h2>My Organizations</h2>';
 
         for(let i = 0; i < data_myorg.length; i++){
             //countorg += '<div>' + data_myorg[i].login + '</div>';
