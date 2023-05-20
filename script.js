@@ -83,6 +83,7 @@ form.addEventListener('submit', function(e){
             <p>${your_followers}</p>
         </div>
         <hr>
+        <h2>Some of My followers</h2>
         `
     })
 
