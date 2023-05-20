@@ -95,7 +95,9 @@ form.addEventListener('submit', function(e){
 
         document.getElementById("result2").innerHTML = `
             <hr>
-            <p></p>
+            <p>
+                ${follow_data}
+            </p>
 
         `
     })
