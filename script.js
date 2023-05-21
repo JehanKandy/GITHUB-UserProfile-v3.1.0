@@ -126,10 +126,17 @@ form.addEventListener('submit', function(e){
 
         let countorg = '<hr><h2>My Organizations</h2>';
 
-        for(let i = 0; i < data_myorg.length; i++){
-            //countorg += '<div>' + data_myorg[i].login + '</div>';
-            countorg += "<img src='" + data_myorg[i].avatar_url + "' class='follower-img'>";
+        if(data_myorg.length === 0){
+            countorg = "I don't Have any Organizations"
         }
+        else{
+            for(let i = 0; i < data_myorg.length; i++){
+                //countorg += '<div>' + data_myorg[i].login + '</div>';
+                countorg += "<img src='" + data_myorg[i].avatar_url + "' class='follower-img'>";
+            }
+        }
+
+
 
         myorg.innerHTML = countorg;
 
