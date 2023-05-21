@@ -66,6 +66,13 @@ form.addEventListener('submit', function(e){
             var userBio = data.bio;
         }
 
+        if(data.company == null){
+            var userCompany = "The User is not in a Company"; 
+        }
+        else{
+            var userCompany = data.company;
+        }
+
         //end fixing
 
         document.getElementById("result").innerHTML = `
@@ -88,7 +95,7 @@ form.addEventListener('submit', function(e){
                     <span class='data-user'>You have <span class='title'>${data.followers}</span> Followers</span>
                 </div> 
                 <div class='row'>
-                    <span class='title'>Your Company : <span class='data-user'>${data.company}</span></span>
+                    <span class='title'>Your Company : <span class='data-user'>${userCompany}</span></span>
                 </div> 
                 <div class='row'>
                     <span class='title'>Your are : <span class='data-user'>${hire}</span></span>                    
