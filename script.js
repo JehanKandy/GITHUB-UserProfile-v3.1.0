@@ -7,6 +7,11 @@ form.addEventListener('submit', function(e){
 
     var search = document.getElementById('search').value
   
+    if(search.value == ''){
+        alert("empty");
+        return false;
+    }
+
     var oname = search.split(' ').join()
     alert(oname);
     
