@@ -1,11 +1,11 @@
 var form = document.getElementById('myform');
 
-var search = document.getElementById('search').value
+
 
 form.addEventListener('submit', function(e){
     e.preventDefault()
 
-
+    var search = document.getElementById('search').value
   
     var oname = search.split(' ').join()
     alert(oname);
