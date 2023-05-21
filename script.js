@@ -73,6 +73,13 @@ form.addEventListener('submit', function(e){
             var userCompany = data.company;
         }
 
+        if(data.public_repos == 0){
+            var userRipo = "No";
+        }
+        else{
+            var userRipo = data.public_repos;
+        }
+
         //end fixing
 
         document.getElementById("result").innerHTML = `
@@ -102,7 +109,7 @@ form.addEventListener('submit', function(e){
                 </div> 
                 <br>
                 <div class='row'>
-                    <span class='data-user'>Your have <span class='title'>${data.public_repos}</span> public repositories</span>                    
+                    <span class='data-user'>Your have <span class='title'>${userRipo}</span> public repositories</span>                    
                 </div> 
             </div>
         </div>
