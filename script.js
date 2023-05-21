@@ -52,7 +52,12 @@ form.addEventListener('submit', function(e){
 
         //fixing some bugs
 
-        if()
+        if(data.name == ""){
+            var loginName = "The name of the user can not be identify"
+        }
+        else{
+            var loginName = data.name;
+        }
 
         //end fixing
 
@@ -63,7 +68,7 @@ form.addEventListener('submit', function(e){
             </div>
             <div class='col-7'>
                 <div class='row'>                
-                    <span class='title'>Username : <span class='data-user'>${data.name}</span></span>
+                    <span class='title'>Username : <span class='data-user'>${loginName}</span></span>
                 </div>     
                 <div class='row'>
                     <span class='title'>BIO : <span class='data-user'>${data.bio}</span></span>
