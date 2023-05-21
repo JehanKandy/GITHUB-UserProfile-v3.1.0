@@ -52,13 +52,15 @@ form.addEventListener('submit', function(e){
 
         //fixing some bugs
 
-        if(data.name == ""){
+        if(data.name == null){
             var loginName = "The name of the user can not be identify"
         }
         else{
             var loginName = data.name;
         }
 
+
+        
         //end fixing
 
         document.getElementById("result").innerHTML = `
