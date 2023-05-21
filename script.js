@@ -59,8 +59,13 @@ form.addEventListener('submit', function(e){
             var loginName = data.name;
         }
 
+        if(data.bio == null){
+            var userBio = "The User doesn't have a Bio";
+        }
+        else{
+            var userBio = data.bio;
+        }
 
-        
         //end fixing
 
         document.getElementById("result").innerHTML = `
@@ -73,7 +78,7 @@ form.addEventListener('submit', function(e){
                     <span class='title'>Username : <span class='data-user'>${loginName}</span></span>
                 </div>     
                 <div class='row'>
-                    <span class='title'>BIO : <span class='data-user'>${data.bio}</span></span>
+                    <span class='title'>BIO : <span class='data-user'>${userBio}</span></span>
                 </div> 
                 <br><br>              
                 <div class='row'>
