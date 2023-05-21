@@ -5,9 +5,10 @@ var form = document.getElementById('myform');
 form.addEventListener('submit', function(e){
     e.preventDefault()
 
-    var search = document.getElementById('search').value
+    // var search = document.getElementById('search').value
+    var search = document.forms["myForm"]["search"].value;
   
-    if(search.value == ''){
+    if(search == ""){
         alert("empty");
         return false;
     }
@@ -148,4 +149,5 @@ form.addEventListener('submit', function(e){
         myorg.innerHTML = countorg;
 
     })
+
 })
