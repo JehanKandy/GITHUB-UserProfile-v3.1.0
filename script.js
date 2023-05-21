@@ -28,8 +28,10 @@ form.addEventListener('submit', function(e){
         else{
             var hire = "not hireable";
         }
+        
 
-        if(data.public_repos >= 1 && data.public_repos < 49){
+        if()
+        else if(data.public_repos >= 1 && data.public_repos < 49){
             var repo = "I have less then 50 Github Public Repositories";
         }
         else if(data.public_repos >= 50 && data.public_repos < 100){
