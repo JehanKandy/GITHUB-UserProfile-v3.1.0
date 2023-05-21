@@ -9,7 +9,7 @@ form.addEventListener('submit', function(e){
     var search = document.forms["myForm"]["search"].value;
   
     if(search == ""){
-        alert("empty");
+        alert("Enter a valid Github username");
         return false;
     }
 
