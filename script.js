@@ -46,8 +46,10 @@ form.addEventListener('submit', function(e){
             var repo = "<img src='https://github.com/JehanKandy/GITHUB-UserProfile/blob/master/images/bronze%20repo.png?raw=true' class='achie-img'><img src='https://github.com/JehanKandy/GITHUB-UserProfile/blob/master/images/siler%20repo.png?raw=true' class='achie-img'><img src='https://github.com/JehanKandy/GITHUB-UserProfile/blob/master/images/gold%20repo.png?raw=true' class='achie-img'>";
         }
 
-
-        if(data.followers >= 25 && data.followers < 50){
+        else if(data.followers >= 1 && data.followers < 24){
+            var your_followers = "I have less then 25 Github Followers";s
+        }
+        else if(data.followers >= 25 && data.followers < 50){
             var your_followers = "<img src='https://github.com/JehanKandy/GITHUB-UserProfile/blob/master/images/bronze%20followers.png?raw=true' class='achie-img'>";
         }
         else if(data.followers >= 50 && data.followers < 100){
