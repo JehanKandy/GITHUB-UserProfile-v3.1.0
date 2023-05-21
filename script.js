@@ -4,6 +4,13 @@ form.addEventListener('submit', function(e){
     e.preventDefault()
 
     var search = document.getElementById('search').value
+
+    if(search.value == ""){
+
+    }
+    else{
+        
+    }
     
     var oname = search.split(' ').join()
     alert(oname);
