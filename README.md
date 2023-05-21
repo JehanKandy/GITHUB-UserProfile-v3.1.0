@@ -6,7 +6,7 @@ GitHub API - [GitHub API](https://api.github.com/)
 
 # About
 
-- This Project is davelop using [GitHub API (Application Programming Interface)](https://api.github.com/). And this Project is Under Development current version  is 0.3.0 (20 May 2023)
+- This Project is davelop using [GitHub API (Application Programming Interface)](https://api.github.com/). And this Project is Under Development current version  is 0.3.1 (21 May 2023)
 <br>
 
 - THe 0.3.0 (20 My 2023) Update have user's Organizations, some of user followers and some of following
