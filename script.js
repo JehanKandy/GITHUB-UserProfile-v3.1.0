@@ -124,10 +124,10 @@ form.addEventListener('submit', function(e){
 
         var myorg = document.getElementById('org');
 
-        let countorg = '<hr><h2>My Organizations</h2>';
+        let countorg = "<hr><h2>My Organizations</h2>";
 
         if(data_myorg.length === 0){
-            countorg = "I don't Have any Organizations"
+            countorg += "<p>I don't Have any Organizations</p>";
         }
         else{
             for(let i = 0; i < data_myorg.length; i++){
