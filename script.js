@@ -50,6 +50,11 @@ form.addEventListener('submit', function(e){
             var your_followers = "<img src='https://github.com/JehanKandy/GITHUB-UserProfile/blob/master/images/bronze%20followers.png?raw=true' class='achie-img'><img src='https://github.com/JehanKandy/GITHUB-UserProfile/blob/master/images/siler%20followers.png?raw=true' class='achie-img'><img src='https://github.com/JehanKandy/GITHUB-UserProfile/blob/master/images/gold%20followers.png?raw=true' class='achie-img'>";
         }
 
+        //fixing some bugs
+
+        if()
+
+        //end fixing
 
         document.getElementById("result").innerHTML = `
         <div class='row first'>
