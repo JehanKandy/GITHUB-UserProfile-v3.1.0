@@ -6,7 +6,7 @@ form.addEventListener('submit', function(e){
     var search = document.getElementById('search').value
 
     if(search.value == ""){
-
+        alert("INput Feild is Empty");
     }
     else{
         var oname = search.split(' ').join()
