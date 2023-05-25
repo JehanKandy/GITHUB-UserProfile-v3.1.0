@@ -9,6 +9,9 @@ GitHub API - [GitHub API](https://api.github.com/)
 - This Project is davelop using [GitHub API (Application Programming Interface)](https://api.github.com/). And this Project is Under Development current version  is 0.3.2 (25 May 2023)
 <br>
 
+- The 0.3.2 (25 May 2023) is fixing some bugs 
+<br>
+
 - The 0.3.1 (21 May 2023) is fixing some bugs (Empty input entered, user doesn't have name, doesn't have Bio, can not achive any custom Github Achievements )
 <br>
 
