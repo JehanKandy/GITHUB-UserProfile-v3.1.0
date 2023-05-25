@@ -76,11 +76,6 @@ GitHub API - [GitHub API](https://api.github.com/)
 - - - public repositories
 
 
-
-
-
-
-
 <h1>Developers</h1>
   <h4>JehanKandy</h4>
 
