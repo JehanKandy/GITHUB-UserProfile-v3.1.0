@@ -33,7 +33,7 @@ form.addEventListener('submit', function(e){
         if(data.public_repos == 0){
             var repo = "I don't have any Github Public Repositories";
         }
-        else if(data.public_repos >= 1 && data.public_repos < 49){
+        else if(data.public_repos >= 1 && data.public_repos < 50){
             var repo = "I have less then 50 Github Public Repositories";
         }
         else if(data.public_repos >= 50 && data.public_repos < 100){
