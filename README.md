@@ -9,7 +9,7 @@ GitHub API - [GitHub API](https://api.github.com/)
 - This Project is davelop using [GitHub API (Application Programming Interface)](https://api.github.com/). And this Project is Under Development current version  is 0.3.3 (26 May 2023)
 <br>
 
-- The 0.3.3 (26 May 2023) is adding updated Achievements for follower category.
+- The 0.3.3 (26 May 2023) is adding updated Achievements for the follower category.
 <br>
 
 - The 0.3.2 (25 May 2023) is fixing some bugs 
@@ -71,7 +71,7 @@ GitHub API - [GitHub API](https://api.github.com/)
 # Releases
 
 ## release 0.3.3 (26 May 2023) - (Latest)
-- - adding updated Achievements for follower category.
+- - adding updated Achievements for the follower category.
 
 ## release 0.3.2 (25 May 2023)
 - - Fixing some bugs
