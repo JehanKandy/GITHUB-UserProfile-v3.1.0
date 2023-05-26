@@ -58,9 +58,9 @@ GitHub API - [GitHub API](https://api.github.com/)
 
 | Title | Custom Github Achievements | reason for can't earnable  | Achievement Status |
 |:--------:|:-------------:|:----------:|:----------:|
-| 25 Followers  | <img src="https://github.com/JehanKandy/GITHUB-UserProfile/blob/master/images/bronze%20followers.png?raw=true" width="250" height="150">           |  new Achievements were published   | Being tested  |
-| 50 Followers | <img src="https://github.com/JehanKandy/GITHUB-UserProfile/blob/master/images/siler%20followers.png?raw=true" width="250" height="150">           |  new Achievements were published   | Being tested  |
-| 100 Followers | <img src="https://github.com/JehanKandy/GITHUB-UserProfile/blob/master/images/gold%20followers.png?raw=true" width="250" height="150">           |  new Achievements were published   | Being tested  |
+| 25 Followers  | <img src="https://github.com/JehanKandy/GITHUB-UserProfile/blob/master/images/bronze%20followers.png?raw=true" width="250" height="150">           |  new Achievements were published   | No longer Earnable  |
+| 50 Followers | <img src="https://github.com/JehanKandy/GITHUB-UserProfile/blob/master/images/siler%20followers.png?raw=true" width="250" height="150">           |  new Achievements were published   | No longer Earnable  |
+| 100 Followers | <img src="https://github.com/JehanKandy/GITHUB-UserProfile/blob/master/images/gold%20followers.png?raw=true" width="250" height="150">           |  new Achievements were published   | No longer Earnable  |
 
 
 
