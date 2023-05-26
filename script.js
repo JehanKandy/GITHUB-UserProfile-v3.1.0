@@ -54,7 +54,7 @@ form.addEventListener('submit', function(e){
             var your_followers = "I have less then 25 Github Followers";
         }
         else if(data.followers >= 25 && data.followers < 50){
-            var your_followers = "<img src='https://github.com/JehanKandy/GITHUB-UserProfile/blob/master/images/bronze%20followers.png?raw=true' class='achie-img'>";
+            var your_followers = "<img src='https://github.com/JehanKandy/GITHUB-UserProfile-v0.3.2/blob/master/images/bfollowers.png?raw=true' class='achie-img'>";
         }
         else if(data.followers >= 50 && data.followers < 100){
             var your_followers = "<img src='https://github.com/JehanKandy/GITHUB-UserProfile/blob/master/images/bronze%20followers.png?raw=true' class='achie-img'><img src='https://github.com/JehanKandy/GITHUB-UserProfile/blob/master/images/siler%20followers.png?raw=true' class='achie-img'>";
