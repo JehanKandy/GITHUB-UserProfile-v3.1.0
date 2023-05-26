@@ -49,7 +49,12 @@ GitHub API - [GitHub API](https://api.github.com/)
 
 ## Achievements no longer Earnable
 
+<br>
+
 - These Achievements are earnable between v0.1.0 to v0.3.2
+
+<br>
+
 
 | Title | Custom Github Achievements | reason for can't earnable  | Achievement Status |
 |:--------:|:-------------:|:----------:|:----------:|
