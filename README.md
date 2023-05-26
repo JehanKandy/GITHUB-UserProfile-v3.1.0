@@ -47,10 +47,10 @@ GitHub API - [GitHub API](https://api.github.com/)
 | 500 Stars | <img src="https://github.com/JehanKandy/GITHUB-UserProfile/blob/master/images/gold%20star.png?raw=true" width="250" height="150">           |  You Should have 500 Stars | Being tested  |
 
 
-## Badges no longer Earnable
+## Achievements no longer Earnable
 
 
-| Title | Custom Github Achievements |  | Achievement Status |
+| Title | Custom Github Achievements | reason for can't earnable  | Achievement Status |
 |:--------:|:-------------:|:----------:|:----------:|
 | 25 Followers  | <img src="https://github.com/JehanKandy/GITHUB-UserProfile/blob/master/images/bronze%20stars.png?raw=true" width="250" height="150">           |  You Should have 100 Stars | Being tested  |
 | 50 Followers | <img src="https://github.com/JehanKandy/GITHUB-UserProfile/blob/master/images/siler%20star.png?raw=true" width="250" height="150">           |  You Should have 250 Stars | Being tested  |
