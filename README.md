@@ -50,7 +50,7 @@ GitHub API - [GitHub API](https://api.github.com/)
 ## Badges no longer Earnable
 
 
-| Title | Custom Github Achievements | How to earn | Achievement Status |
+| Title | Custom Github Achievements |  | Achievement Status |
 |:--------:|:-------------:|:----------:|:----------:|
 | 25 Followers  | <img src="https://github.com/JehanKandy/GITHUB-UserProfile/blob/master/images/bronze%20stars.png?raw=true" width="250" height="150">           |  You Should have 100 Stars | Being tested  |
 | 50 Followers | <img src="https://github.com/JehanKandy/GITHUB-UserProfile/blob/master/images/siler%20star.png?raw=true" width="250" height="150">           |  You Should have 250 Stars | Being tested  |
