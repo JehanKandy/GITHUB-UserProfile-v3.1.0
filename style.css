@@ -22,8 +22,11 @@ footer{
 .achie-img{
     height: 150px;
     width: 250px;
-
     margin: 20px 0;
+}
+.achie-nimg{
+    height: 150px;
+    width: 250px;
 }
 .follower-img{
     width: 100px;
