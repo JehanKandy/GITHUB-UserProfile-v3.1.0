@@ -47,7 +47,7 @@ GitHub API - [GitHub API](https://api.github.com/)
 | 500 Stars | <img src="https://github.com/JehanKandy/GITHUB-UserProfile/blob/master/images/gold%20star.png?raw=true" width="250" height="150">           |  You Should have 500 Stars | Being tested  |
 
 
-## Achievements Being tested 
+## Badges no longer Earnable
 
 
 | Title | Custom Github Achievements | How to earn | Achievement Status |
