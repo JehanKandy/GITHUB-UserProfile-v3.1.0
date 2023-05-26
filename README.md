@@ -51,14 +51,14 @@ GitHub API - [GitHub API](https://api.github.com/)
 
 <br>
 
-- These Achievements are earnable between v0.1.0 to v0.3.2
+- These Achievements were earnable between v0.1.0 to v0.3.2
 
 <br>
 
 
 | Title | Custom Github Achievements | reason for can't earnable  | Achievement Status |
 |:--------:|:-------------:|:----------:|:----------:|
-| 25 Followers  | <img src="https://github.com/JehanKandy/GITHUB-UserProfile/blob/master/images/bronze%20stars.png?raw=true" width="250" height="150">           |  new Achievements were published   | Being tested  |
+| 25 Followers  | <img src="https://github.com/JehanKandy/GITHUB-UserProfile/blob/master/images/bronze%20followers.png?raw=true" width="250" height="150">           |  new Achievements were published   | Being tested  |
 | 50 Followers | <img src="https://github.com/JehanKandy/GITHUB-UserProfile/blob/master/images/siler%20star.png?raw=true" width="250" height="150">           |  new Achievements were published   | Being tested  |
 | 100 Followers | <img src="https://github.com/JehanKandy/GITHUB-UserProfile/blob/master/images/gold%20star.png?raw=true" width="250" height="150">           |  new Achievements were published   | Being tested  |
 
