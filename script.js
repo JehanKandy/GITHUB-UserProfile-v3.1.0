@@ -164,7 +164,7 @@ form.addEventListener('submit', function(e){
         
         for(let i = 0; i < data_following.length; i++){
             //countfollowing += '<div>' + data_following[i].login + '</div>';
-            countfollowing += "<img src='" + data_following[i].avatar_url + "' class='follower-img'>";
+            countfollowing += "<a href='https://www.github.com/"+  +"' target='_blank'><img src='" + data_following[i].avatar_url + "' class='follower-img'></a>";
         }
 
         myfollowing.innerHTML = countfollowing;
