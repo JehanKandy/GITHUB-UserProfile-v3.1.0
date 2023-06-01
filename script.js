@@ -98,7 +98,7 @@ form.addEventListener('submit', function(e){
         document.getElementById("result").innerHTML = `
         <div class='row first'>
             <div class='col col-lg-4'>
-                <img src="${data.avatar_url}" class='profile-img'/>
+                <a href="${}" target='_blank'><img src="${data.avatar_url}" class='profile-img'/></a>
             </div>
             <div class='col-7'>
                 <div class='row'>                
