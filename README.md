@@ -9,6 +9,8 @@ GitHub API - [GitHub API](https://api.github.com/)
 - This Project is davelop using [GitHub API (Application Programming Interface)](https://api.github.com/). And this Project is Under Development current version  is 0.3.4 (01 June 2023)
 <br>
 
+-The 0.3.4 (01 June 2023) is adding url for fetching data (current user's )
+
 - The 0.3.3 (26 May 2023) is adding updated Achievements for the follower category.
 <br>
 
