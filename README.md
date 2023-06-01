@@ -10,7 +10,6 @@ GitHub API - [GitHub API](https://api.github.com/)
 <br>
 
 - The 0.3.4 (01 June 2023) is adding url for fetching data
-<br>
 
 - - when user click the current user url it gose to currnt user's github profile
 - - if the current user have any organizations, when user click one of that organizations it goes to organization's github peofile
