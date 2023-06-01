@@ -13,7 +13,9 @@ GitHub API - [GitHub API](https://api.github.com/)
 <br>
 
 - - when user click the current user url it gose to currnt user's github profile
-- - if the current user have any organizations 
+- - if the current user have any organizations, when user click one of that organizations it goes to organization's github peofile
+- - if the current user have any followers, when user click one of that followers it goes to follower's github peofile
+- - if the current user following any user in github, when user click one of that following user it goes to following user's github peofile
 
 - The 0.3.3 (26 May 2023) is adding updated Achievements for the follower category.
 <br>
