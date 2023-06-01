@@ -12,6 +12,9 @@ GitHub API - [GitHub API](https://api.github.com/)
 - The 0.3.4 (01 June 2023) is adding url for fetching data
 <br>
 
+- - when user click the current user url it gose to currnt user's github profile
+- - if the current user have any organizations 
+
 - The 0.3.3 (26 May 2023) is adding updated Achievements for the follower category.
 <br>
 
