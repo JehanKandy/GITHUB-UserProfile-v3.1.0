@@ -185,7 +185,7 @@ form.addEventListener('submit', function(e){
             for(let i = 0; i < data_myorg.length; i++){
                 //countorg += '<div>' + data_myorg[i].login + '</div>';
                 //countorg += "<a href='" + org_url + "' target='_blank'><img src='" + data_myorg[i].avatar_url + "' class='follower-img'></a>";
-                countorg += "<a href='https://www.github.com/' target='_blank'><img src='" + data_myorg[i].avatar_url + "' class='follower-img'></a>"
+                countorg += "<a href='https://www.github.com/'" + data_myorg[i].login + " target='_blank'><img src='" + data_myorg[i].avatar_url + "' class='follower-img'></a>"
             }
         }
 
