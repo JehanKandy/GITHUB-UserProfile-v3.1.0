@@ -148,7 +148,7 @@ form.addEventListener('submit', function(e){
 
         for(let i = 0; i < data_follow.length; i++){
             //countFollowers += '<div>' + data_follow[i].login + '</div>';
-            countFollowers += "<img src='" + data_follow[i].avatar_url + "' class='follower-img'>";
+            countFollowers += "<a href='' target='_blank'><img src='" + data_follow[i].avatar_url + "' class='follower-img'></>";
         }
 
         followers.innerHTML = countFollowers;
