@@ -85,7 +85,11 @@ GitHub API - [GitHub API](https://api.github.com/)
 
 # Releases
 
-## release 0.3.3 (26 May 2023) - (Latest)
+## release 0.3.4 (01 June 2023) - (Latest)
+- - The 0.3.4 (01 June 2023) is adding url for fetching data
+- - when user click the current user url it gose to currnt user's github profile
+
+## release 0.3.3 (26 May 2023)
 - - adding updated Achievements for the follower category.
 
 ## release 0.3.2 (25 May 2023)
