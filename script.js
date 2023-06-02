@@ -195,8 +195,8 @@ form.addEventListener('submit', function(e){
 
     })
 
-    for(let i = 0; i < userRipo; i++){
-        fetch("https://api.github.com/users/"+oname+"/repos?page="+i)
+
+        fetch("https://api.github.com/users/"+oname+"/repos?page")
         .then((result_myrepos) => result_myrepos.json())
         .then((data_myrepos) => {
             
@@ -204,13 +204,13 @@ form.addEventListener('submit', function(e){
             let countrepos = "<hr><h2>My Repos</h2>";
             
             for(let j = 0; j < data_myrepos.length; j++){
-                countrepos += "My Repo" + data_myrepos[j].description
+                countrepos += "<b>My Repo : </b>" + data_myrepos[j].description+ "<br>";
             }
     
             myrepos.innerHTML = countrepos;
     
     
         })
-    }
+
 
 })
