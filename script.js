@@ -196,8 +196,10 @@ form.addEventListener('submit', function(e){
     })
 
     fetch("https://api.github.com/users/"+oname+"/orgs")
-    .then((result_myorg) => result_myorg.json())
-    .then((data_myorg) => {
+    .then((result_myrepos) => result_myorg.json())
+    .then((data_myrepos) => {
+        
+        var myrepos = document.getElementById('');
 
     })
 
