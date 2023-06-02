@@ -195,12 +195,16 @@ form.addEventListener('submit', function(e){
 
     })
 
-    fetch("https://api.github.com/users/"+oname+"/repos?per_page=300")
+    
+
+
+
+    fetch("https://api.github.com/users/"+oname+"/repos")
     .then((result_myrepos) => result_myrepos.json())
     .then((data_myrepos) => {
         
         var myrepos = document.getElementById('myrepos');
-        let countrepos = data_myrepos.length;
+        let countrepos = "My Repos";
 
         myrepos.innerHTML = countrepos;
 
