@@ -204,7 +204,7 @@ form.addEventListener('submit', function(e){
     .then((data_myrepos) => {
         
         var myrepos = document.getElementById('myrepos');
-        let countrepos = "My Repos";
+        let countrepos = "<hr><h2>My Repos</h2>";
 
         countrepos += "All Pages";
 
