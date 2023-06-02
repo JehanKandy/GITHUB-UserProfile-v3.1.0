@@ -195,4 +195,10 @@ form.addEventListener('submit', function(e){
 
     })
 
+    fetch("https://api.github.com/users/"+oname+"/orgs")
+    .then((result_myorg) => result_myorg.json())
+    .then((data_myorg) => {
+
+    })
+
 })
