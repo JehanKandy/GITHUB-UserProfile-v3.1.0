@@ -195,22 +195,22 @@ form.addEventListener('submit', function(e){
 
     })
 
+    for(let i = 0; i < userRipo; i++){
+        fetch("https://api.github.com/users/"+oname+"/repos?page="+i)
+        .then((result_myrepos) => result_myrepos.json())
+        .then((data_myrepos) => {
+            
+            var myrepos = document.getElementById('myrepos');
+            let countrepos = "<hr><h2>My Repos</h2>";
+            
+            for(let j = 0; j < data_myrepos.length; j++){
+                countrepos += "My Repo" + data_myrepos[i].description;
+            }
     
-
-
-
-    fetch("https://api.github.com/users/"+oname+"/repos")
-    .then((result_myrepos) => result_myrepos.json())
-    .then((data_myrepos) => {
-        
-        var myrepos = document.getElementById('myrepos');
-        let countrepos = "<hr><h2>My Repos</h2>";
-
-        countrepos += "All Pages" + data.public_repos/3;
-
-        myrepos.innerHTML = countrepos;
-
-
-    })
+            myrepos.innerHTML = countrepos;
+    
+    
+        })
+    }
 
 })
