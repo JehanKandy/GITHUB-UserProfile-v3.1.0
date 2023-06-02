@@ -84,6 +84,10 @@ GitHub API - [GitHub API](https://api.github.com/)
 
 # Releases
 
+## release 0.3.4 (01 June 2023) - (pre-release)
+- - fixing bugs
+- - checking updates for v0.4.0
+
 ## release 0.3.4 (01 June 2023) - (Latest)
 - - The 0.3.4 (01 June 2023) is adding url for fetching data
 - - when user click the current user url it gose to currnt user's github profile
