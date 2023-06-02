@@ -196,7 +196,7 @@ form.addEventListener('submit', function(e){
     })
 
 
-        fetch("https://api.github.com/users/"+oname+"/repos?page")
+        fetch("https://api.github.com/users/"+oname+"/repos?page=2")
         .then((result_myrepos) => result_myrepos.json())
         .then((data_myrepos) => {
             
