@@ -93,6 +93,8 @@ form.addEventListener('submit', function(e){
             var userRipo = data.public_repos;
         }
 
+        let a =1;
+
         //end fixing
 
         document.getElementById("result").innerHTML = `
@@ -189,14 +191,12 @@ form.addEventListener('submit', function(e){
             }
         }
 
-
-
         myorg.innerHTML = countorg;
 
     })
 
-
-        fetch("https://api.github.com/users/"+oname+"/repos?page=2&per_page=100")
+    
+        fetch("https://api.github.com/users/"+oname+"/repos?per_page=1000")
         .then((result_myrepos) => result_myrepos.json())
         .then((data_myrepos) => {
             
@@ -204,7 +204,7 @@ form.addEventListener('submit', function(e){
             let countrepos = "<hr><h2>My Repos</h2>";
             
             for(let j = 0; j < data_myrepos.length; j++){
-                countrepos += "<b>My Repo : </b>" + data_myrepos[j].description+ "<br>";
+                countrepos += "<b>My Repo : </b>" + data_myrepos[j].name+ "<br>";
             }
     
             myrepos.innerHTML = countrepos;
