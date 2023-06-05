@@ -127,7 +127,7 @@ form.addEventListener('submit', function(e){
                     <span class='data-user'>Your have <span class='title'>${userRipo}</span> public repositories</span>                    
                 </div> 
                 <div class='row'>
-                    <span class='data-user'>Your have <span class='title'>${userRipo}</span> public repositories</span>                    
+                    <span class='data-user'>You are a member since <span class='title'>${data.created_at}</span> public repositories</span>                    
                 </div> 
             </div>
         </div>
