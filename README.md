@@ -11,7 +11,7 @@ GitHub API - [GitHub API](https://api.github.com/)
 - The 0.4.0 (05 June 2023) - Latest 
 <br>
 
-- - Adding some Repositories
+- - Adding some Repositories with title, link, Created at, Repository Size
 <br>
 
 - - Adding some Repositories
