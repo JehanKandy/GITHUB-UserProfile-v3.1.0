@@ -204,7 +204,7 @@ form.addEventListener('submit', function(e){
         .then((data_myrepos) => {
             
             var myrepos = document.getElementById('myrepos');
-            let countrepos = "<hr><h2>My Repos</h2>";
+            let countrepos = "<hr><h2>Some of My Repositories</h2>";
             
             for(let j = 0; j < data_myrepos.length; j++){
                 countrepos += `
