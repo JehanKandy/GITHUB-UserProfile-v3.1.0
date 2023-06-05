@@ -211,7 +211,7 @@ form.addEventListener('submit', function(e){
                     <div class='my-repos'>
                         <div class='repo-title'>${data_myrepos[j].name}</div>
                         <div class='repo-desc'>${data_myrepos[j].description}</div>
-                        <div class='repo-create'>${data_myrepos[j].created_at}</div>
+                        <div class='repo-create'><b>Created at : </b>${data_myrepos[j].created_at}</div>
                     </div>`;
             }
     
