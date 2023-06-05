@@ -38,4 +38,6 @@ footer{
     background-color: rgb(228, 228, 228);
     padding: 20px;
     border-radius: 5px;
+    font-size: 20px;
+    margin: 10px 0;
 }
