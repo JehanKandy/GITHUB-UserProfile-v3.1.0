@@ -126,6 +126,9 @@ form.addEventListener('submit', function(e){
                 <div class='row'>
                     <span class='data-user'>Your have <span class='title'>${userRipo}</span> public repositories</span>                    
                 </div> 
+                <div class='row'>
+                    <span class='data-user'>Your have <span class='title'>${userRipo}</span> public repositories</span>                    
+                </div> 
             </div>
         </div>
         <hr>
