@@ -209,7 +209,7 @@ form.addEventListener('submit', function(e){
             for(let j = 0; j < data_myrepos.length; j++){
                 countrepos += `<div class='col-8'>
                                     <div class='row'>
-                                        
+                                        ${data_myrepos[j.name]}
                                     </div>                
                                 </div>`;
             }
