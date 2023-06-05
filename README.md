@@ -14,7 +14,7 @@ GitHub API - [GitHub API](https://api.github.com/)
 - - Adding some Repositories with title, link, Created at, Repository Size
 <br>
 
-- - Adding Account created data and fixing Bugs
+- - Adding Account created date and fixing Bugs
 <br>
 
 But publish version is 0.3.4 (01 June 2023)
@@ -99,11 +99,10 @@ But publish version is 0.3.4 (01 June 2023)
 # Releases
 
 ## release 0.3.4 (01 June 2023) - (Latest)
-- - The 0.3.4 (01 June 2023) is adding url for fetching data
-- - when user click the current user url it gose to currnt user's github profile
-- - if the current user have any organizations, when user click one of that organizations it goes to organization's github peofile
-- - if the current user have any followers, when user click one of that followers it goes to follower's github peofile
-- - if the current user following any user in github, when user click one of that following user it goes to following user's github peofile
+- - Adding some Repositories with title, link, Created at, Repository Size
+- - Adding Account created dates
+
+
 
 ## release 0.3.4 (01 June 2023) - (pre-release)
 - - fixing bugs
