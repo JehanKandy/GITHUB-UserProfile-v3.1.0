@@ -14,7 +14,7 @@ GitHub API - [GitHub API](https://api.github.com/)
 - - Adding some Repositories with title, link, Created at, Repository Size
 <br>
 
-- - Adding some Repositories
+- - Adding Account created data and fixing Bugs
 <br>
 
 But publish version is 0.3.4 (01 June 2023)
