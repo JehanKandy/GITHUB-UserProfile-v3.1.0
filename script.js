@@ -207,7 +207,10 @@ form.addEventListener('submit', function(e){
             let countrepos = "<hr><h2>My Repos</h2>";
             
             for(let j = 0; j < data_myrepos.length; j++){
-                countrepos += "<div class='my-repos'><a href='" + data_myrepos[j].html_url + "' target='_blank'>" + data_myrepos[j].name + "</a></div>";
+                countrepos += `
+                    <div class='my-repos'>
+                        <div class='repo-title'>${result_myrepos[j].name}</div>
+                    </div>`;
             }
     
             myrepos.innerHTML = countrepos;
