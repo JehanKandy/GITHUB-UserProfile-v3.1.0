@@ -98,17 +98,16 @@ But publish version is 0.3.4 (01 June 2023)
 
 # Releases
 
-## release 0.3.4 (01 June 2023) - (Latest)
+## release 0.4.0 (05 June 2023) - (Latest)
 - - Adding some Repositories with title, link, Created at, Repository Size
 - - Adding Account created dates
-
-
+- - fixing bugs
 
 ## release 0.3.4 (01 June 2023) - (pre-release)
 - - fixing bugs
 - - checking updates for v0.4.0
 
-## release 0.3.4 (01 June 2023) - (Latest)
+## release 0.3.4 (01 June 2023) 
 - - The 0.3.4 (01 June 2023) is adding url for fetching data
 - - when user click the current user url it gose to currnt user's github profile
 - - if the current user have any organizations, when user click one of that organizations it goes to organization's github profile
