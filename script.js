@@ -210,6 +210,7 @@ form.addEventListener('submit', function(e){
                 countrepos += `
                     <div class='my-repos'>
                         <div class='repo-title'>${data_myrepos[j].name}</div>
+                        <div class='repo-desc'>${data_myrepos[j].description}</div>
                     </div>`;
             }
     
