@@ -128,10 +128,8 @@ But publish version is 0.3.4 (01 June 2023)
 - - Adding some of the Followers
 - - Adding some of following
 
-
 ## release 0.2.0 (19 May 2023) 
 - - Adding custom Github Achievements
-
 
 ## release 0.1.0 (14 May 2023)
 - - Basic Version of Project
