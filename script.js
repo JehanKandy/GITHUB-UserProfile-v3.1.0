@@ -215,6 +215,8 @@ form.addEventListener('submit', function(e){
         var join_date = document.getElementById('memberDate');
         let countYears = "<br><h2>Your are a Member since :" + data.created_at + ".";
 
+        join_date.innerHTML = countYears;
+
         
 
 
