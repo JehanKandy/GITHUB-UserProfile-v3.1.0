@@ -7,6 +7,7 @@
   --hover-normal-text: 22px;
   --link-text: white;
   --link-hover-time: 0.5s;
+  --normal-title: 30px;
 }
 
 * {
@@ -47,4 +48,9 @@
 .main-footer {
   background-color: rgb(37, 37, 37);
   padding: 50px 0;
+}
+
+.footer-title {
+  font-size: var(--normal-title);
+  margin-bottom: 20px;
 }
