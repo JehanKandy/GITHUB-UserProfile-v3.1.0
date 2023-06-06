@@ -107,7 +107,11 @@ But publish version is 0.3.4 (01 June 2023)
 
 # Releases
 
-## release 0.4.0 (05 June 2023) - (Latest)
+## release 1.0.0 (06 June 2023) - (Latest)
+- - This is the next major version of the Project
+- - Adding repositories Search 
+
+## release 0.4.0 (05 June 2023) 
 - - Adding some Repositories with title, link, Created at, Repository Size
 - - Adding Account created dates
 - - fixing bugs
