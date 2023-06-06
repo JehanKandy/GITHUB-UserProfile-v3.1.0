@@ -238,7 +238,8 @@ form.addEventListener('submit', function(e){
     .then((repo_data) => {
 
         document.getElementById('repo-search').innerHTML = `
-            <h2>Repository Owner</h2>
+            <h1>Repository Full Name : ${repo_data.full_name}</h1>
+            <h2>Repository Owner</h2>            
             <div class='repo-owner'>
                 <b>Name : </b> <a href='${repo_data.owner.html_url}' target='_blank'>${repo_data.owner.login}</a><br>
                 <img src='${repo_data.owner.avatar_url}' class='repo-owner-img'>
