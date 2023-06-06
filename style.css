@@ -50,3 +50,7 @@ footer{
 .repo-owner{
     margin-left: 20px;
 }
+.repo-owner-img{
+    width: 50px;
+    height: 50px;
+}
