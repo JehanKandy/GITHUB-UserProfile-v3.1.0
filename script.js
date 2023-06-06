@@ -221,4 +221,14 @@ form.addEventListener('submit', function(e){
     
     
         })
+    fetch("https://api.github.com/users/"+oname+"")
+    .then((result_mycard) => result_mycard.json())
+    .then((result_mycard) => {
+        var cardmy = document.getElementById('user-card');
+        let viewcard = "<h1>My Github Card</h1>";
+
+
+        cardmy.innerHTML = viewcard;
+    })
+        
 })
