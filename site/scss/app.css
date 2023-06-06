@@ -1,3 +1,11 @@
 :root {
   --font-color:red;
 }
+
+* {
+  color: white;
+}
+
+.nav-bar {
+  background-image: linear-gradient(red, yellow), url("../../images/homepage.jpg");
+}
