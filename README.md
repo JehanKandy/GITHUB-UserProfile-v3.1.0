@@ -14,7 +14,7 @@ GitHub API - [GitHub API](https://api.github.com/)
 - - This is the next major version of the Project
 <br>
 
-- - Adding 
+- - Adding repositories Search 
 <br>
 
 - The 0.4.0 (05 June 2023)
