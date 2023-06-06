@@ -27,4 +27,5 @@
 
 .normal-text {
   font-size: var(--normal-text);
+  margin: 15px 0;
 }
