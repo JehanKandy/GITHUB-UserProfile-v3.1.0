@@ -47,7 +47,7 @@ footer{
 #repo-search{
     margin: 20px;
 }
-.repo-owner{
+.repo-owner .repo-data{
     margin-left: 20px;
 }
 .repo-owner-img{
