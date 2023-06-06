@@ -11,5 +11,13 @@ form.addEventListener('submit', function(e){
     .then((result) => result.json())
     .then((data) => {
 
+        var repo_result = document.getElementById('repo-search');
+
+        var repo_view = `
+        
+        `;
+
+        repo_result.innerHTML = repo_view;
+
     })
 })
