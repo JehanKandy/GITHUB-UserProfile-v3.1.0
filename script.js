@@ -246,7 +246,7 @@ form.addEventListener('submit', function(e){
             </div>
             <h2>Repository Data</h2> 
             <div class='repo-data'>
-                
+                <b>Repository Name : </b> <a href='${repo_data.html_url}' target='_blank'></a><br>
             </div>
         
         `;        
