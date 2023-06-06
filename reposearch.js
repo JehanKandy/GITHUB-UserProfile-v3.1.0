@@ -7,7 +7,7 @@ form.addEventListener('submit', function(e){
     var git_repo = document.forms["reposearch"]["repos_name"].value;
 
 
-    fetch("https://api.github.com/users/"+oname)
+    fetch("https://api.github.com/repos/"+git_user+"/"+git_repo)
     .then((result) => result.json())
     .then((data) => {
 
