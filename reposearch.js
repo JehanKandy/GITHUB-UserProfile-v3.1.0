@@ -11,7 +11,10 @@ form.addEventListener('submit', function(e){
     .then((result) => result.json())
     .then((data) => {
 
-        document.getElementById('repo-search');
+        document.getElementById('repo-search').innerHTML = `
+            <p>${data.name}</p>
+        
+        `;
 
 
 
