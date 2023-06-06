@@ -6,12 +6,12 @@ GitHub API - [GitHub API](https://api.github.com/)
 
 # About
 
-- This Project is davelop using [GitHub API (Application Programming Interface)](https://api.github.com/). And this Project is Under Development current version  is 0.5.0 (06 June 2023) - Latest
+- This Project is davelop using [GitHub API (Application Programming Interface)](https://api.github.com/). And this Project is Under Development current version  is 1.0.0 (06 June 2023) - Latest
 
 - The 1.0.0 (06 June 2023) - Latest 
 <br>
 
-- - This is the next major version of the Project
+- - This is the next major release of the Project
 <br>
 
 - - Adding repositories Search 
@@ -108,7 +108,7 @@ But publish version is 0.3.4 (01 June 2023)
 # Releases
 
 ## release 1.0.0 (06 June 2023) - (Latest)
-- - This is the next major version of the Project
+- - This is the next major release of the Project
 - - Adding repositories Search 
 
 ## release 0.4.0 (05 June 2023) 
