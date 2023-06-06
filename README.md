@@ -6,9 +6,18 @@ GitHub API - [GitHub API](https://api.github.com/)
 
 # About
 
-- This Project is davelop using [GitHub API (Application Programming Interface)](https://api.github.com/). And this Project is Under Development current version  is 0.3.5 (05 June 2023) - Latest
+- This Project is davelop using [GitHub API (Application Programming Interface)](https://api.github.com/). And this Project is Under Development current version  is 0.5.0 (06 June 2023) - Latest
 
-- The 0.4.0 (05 June 2023) - Latest 
+- The 1.0.0 (06 June 2023) - Latest 
+<br>
+
+- - This is the next major version of the Project
+<br>
+
+- - Adding 
+<br>
+
+- The 0.4.0 (05 June 2023)
 <br>
 
 - - Adding some Repositories with title, link, Created at, Repository Size
