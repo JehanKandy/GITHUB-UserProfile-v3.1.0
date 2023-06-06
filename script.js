@@ -240,11 +240,7 @@ form.addEventListener('submit', function(e){
         document.getElementById('repo-search').innerHTML = `
             <p>${data.name}</p>
         
-        `;
-
-
-
-        
+        `;        
 
     })
 })
