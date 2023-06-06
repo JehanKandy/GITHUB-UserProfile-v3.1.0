@@ -240,7 +240,7 @@ form.addEventListener('submit', function(e){
         document.getElementById('repo-search').innerHTML = `
             <h2>Repository Owner</h2>
             <div class='repo-owner'>
-                <b>Name : </b> ${repo_data.owner.login}
+                <b>Name : </b> <a href='${repo_data.owner.html_url}' target='_blank'>${repo_data.owner.login}</a>
             </div>
         
         `;        
