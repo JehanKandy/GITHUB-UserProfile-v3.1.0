@@ -5,6 +5,7 @@
     --title-size: 80px;
     --normal-text: 20px;
     --link-text: white;
+    --link-hover-time: 0.5s;
 }
 *{
     color: white;
@@ -33,4 +34,8 @@
     font-size: var(--normal-text);
     text-decoration: none;
     color: var(--link-text);
+    transition: var(--link-hover-time);
+}
+.site-link:hover{
+    text-decoration: underline;
 }
