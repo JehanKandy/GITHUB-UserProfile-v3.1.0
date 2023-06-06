@@ -43,3 +43,7 @@
 .site-link:hover {
   font-size: var(--hover-normal-text);
 }
+
+.main-footer {
+  background-color: rgb(37, 37, 37);
+}
