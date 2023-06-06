@@ -3,6 +3,7 @@
     --font-color:red;
     --main-title: 'Rubik', sans-serif;
     --title-size: 80px;
+    --normal-text: 20px;
 }
 *{
     color: white;
@@ -19,7 +20,10 @@
     height: 60vh;
     @extend .all-image;
     text-align: center;
-    padding: 100px 0;
+    padding: 150px 0;
     font-family: var(--main-title);
     font-size: var(--title-size);
+}
+.normal-text{
+    font-size: var(--normal-text);
 }
