@@ -4,6 +4,7 @@
   --main-title: "Rubik", sans-serif;
   --title-size: 80px;
   --normal-text: 20px;
+  --link-text: white;
 }
 
 * {
@@ -28,4 +29,10 @@
 .normal-text {
   font-size: var(--normal-text);
   margin-bottom: 15px;
+}
+
+.site-link {
+  font-size: var(--normal-text);
+  text-decoration: none;
+  color: var(--link-text);
 }
