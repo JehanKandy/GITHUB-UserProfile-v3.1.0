@@ -238,7 +238,7 @@ form.addEventListener('submit', function(e){
     .then((data) => {
 
         document.getElementById('repo-search').innerHTML = `
-            <p>${data.name}</p>
+            <h2>Repository Owner</h2>
         
         `;        
 
