@@ -234,11 +234,12 @@ form.addEventListener('submit', function(e){
 
 
     fetch("https://api.github.com/repos/"+git_user+"/"+git_repo)
-    .then((result) => result.json())
-    .then((data) => {
+    .then((repo_result) => repo_result.json())
+    .then((repo_data) => {
 
         document.getElementById('repo-search').innerHTML = `
             <h2>Repository Owner</h2>
+            <b>Name : <b> ${repo_data}
         
         `;        
 
