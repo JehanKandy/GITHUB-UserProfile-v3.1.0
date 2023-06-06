@@ -226,7 +226,7 @@ form.addEventListener('submit', function(e){
     .then((result_mycard) => result_mycard.json())
     .then((result_mycard) => {
         var cardmy = document.getElementById('user-card');
-        let viewcard = "<h1>My Github Card</h1>";
+        let viewcard = "<hr><h2>My Github Card</h2>";
 
 
         cardmy.innerHTML = viewcard;
