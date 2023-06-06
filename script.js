@@ -241,7 +241,7 @@ form.addEventListener('submit', function(e){
             <h2>Repository Owner</h2>
             <div class='repo-owner'>
                 <b>Name : </b> <a href='${repo_data.owner.html_url}' target='_blank'>${repo_data.owner.login}</a><br>
-                <img src='' class='repo-owner-img'>
+                <img src='${repo_data.owner.avatar_url}' class='repo-owner-img'>
             </div>
         
         `;        
