@@ -1,4 +1,4 @@
-var repoform = document.getElementById('myform');
+var repoform = document.getElementById('reposearch');
 
 
 
