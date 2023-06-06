@@ -9,5 +9,5 @@ const footer = document.querySelector('.main-footer')
 fetch('footer.html')
 .then(res=>res.text())
 .then(data=>{
-    nav.innerHTML=data
+    footer.innerHTML=data
 });
