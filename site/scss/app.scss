@@ -4,6 +4,7 @@
     --main-title: 'Rubik', sans-serif;
     --title-size: 80px;
     --normal-text: 20px;
+    --hover-normal-text: 20px;
     --link-text: white;
     --link-hover-time: 0.5s;
 }
@@ -37,5 +38,5 @@
     transition: var(--link-hover-time);
 }
 .site-link:hover{
-    font-size: 25px;
+    font-size: var(--hover-normal-text);
 }
