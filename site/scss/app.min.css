@@ -1,1 +1,1 @@
-:root{--font-color:red}*{color:#fff}.nav-bar{background-image:linear-gradient(red, yellow),url("../../images/homepage.jpg")}
+:root{--font-color:red}*{color:#fff}.all-image,.nav-bar{background-position:center;background-repeat:no-repeat;background-size:cover}.nav-bar{background-image:url("../../images/homepage.jpg");height:80vh}
