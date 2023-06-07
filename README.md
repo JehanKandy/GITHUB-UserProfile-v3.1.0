@@ -6,14 +6,14 @@ Previous Project [GITHUB UserProfilePrevious Project](https://jehankandy.github.
 
 GitHub API - [GitHub API](https://api.github.com/)
 
-
+User version [1.0.0 (06 June 2023)](https://jehankandy.github.io/GITHUB-UserProfile-v1.0.0/) to view Project. The [2.0.0-beta1 (07 June 2023)]() is Under Development
 
 # About
 
 - This Project is davelop using [GitHub API (Application Programming Interface)](https://api.github.com/). And this Project is Under Development current version  is 2.0.0-beta1 (07 June 2023)  - Latest
 <br>
 
-- The 1.0.0 (06 June 2023) - Latest 
+- The 2.0.0-beta1 (07 June 2023) - Latest 
 <br>
 
 - - This is the 3rd major release of the Project
