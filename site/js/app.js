@@ -5,9 +5,17 @@ fetch('nav.html')
     nav.innerHTML=data
 });
 
+const nav_profile = document.querySelector('.nav-profile')
+fetch('nav_profile.html')
+.then(res=>res.text())
+.then(data=>{
+    nav_profile.innerHTML=data
+});
+
 const footer = document.querySelector('.main-footer')
 fetch('footer.html')
 .then(res=>res.text())
 .then(data=>{
     footer.innerHTML=data
 });
+
