@@ -47,13 +47,14 @@ form.addEventListener('submit', function(e){
         
     document.getElementById("result").innerHTML = `
             <div class='main-result'>
-                <center><img src='${data.avatar_url}' class='user-img'></center>
+                <h1>Username : ${data.login} </h1>
                 <div class='row result-content'>
-                    <div class='col-lg-6'>
-                        asd
+                    <div class='col-lg-2'>
+                        <img src='${data.avatar_url}' class='user-img'>
                     </div>
                     <div class='col-lg-6'>
-                        Username : ${data.login}
+                        <h2>My Bio :</h2>  <br>
+                        <p>Hi all I am ${data.login} .
                     </div>
                 </div>
                 
