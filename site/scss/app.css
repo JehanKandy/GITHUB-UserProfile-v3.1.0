@@ -71,3 +71,7 @@
 .main-body {
   font-family: var(--normal-ftext);
 }
+
+.developer-img {
+  width: 40%;
+}
