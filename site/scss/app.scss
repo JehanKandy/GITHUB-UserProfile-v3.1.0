@@ -84,5 +84,7 @@
 .back-btn:hover{
     background-color: white;
     color: var(--font-black);
-
+}
+.nav-repo{
+    @extend .nav-bar;
 }
