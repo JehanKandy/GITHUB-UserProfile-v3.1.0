@@ -47,7 +47,7 @@ form.addEventListener('submit', function(e){
         
     document.getElementById("result").innerHTML = `
             <div class='main-result'>
-                <p>${data.login}</p>
+                <img src='${data.avatar_url}' class='user-img'>
             </div>
         `
 
