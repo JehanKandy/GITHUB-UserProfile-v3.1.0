@@ -22,7 +22,7 @@ Please use version [1.0.0 (06 June 2023)](https://jehankandy.github.io/GITHUB-Us
 - - Adding new Themes for Project 
 <br>
 
-- - This version develop for Testing (2.0.0-beta1 (07 June 2023) - Latest)
+- - This version developed for Testing (2.0.0-beta1 (07 June 2023) - Latest)
 <br>
 
 - The 1.0.0 (06 June 2023) 
