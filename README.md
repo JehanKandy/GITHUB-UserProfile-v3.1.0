@@ -2,7 +2,7 @@
 
 view the Project at [GITHUB UserProfile The 2.0.0-beta1 (07 June 2023)]()
 
-Previous Project [GITHUB UserProfilePrevious Project](https://jehankandy.github.io/GITHUB-UserProfile-v1.0.0/)
+Previous Project [GITHUB UserProfile Previous Project 1.0.0 (06 June 2023)](https://jehankandy.github.io/GITHUB-UserProfile-v1.0.0/)
 
 GitHub API - [GitHub API](https://api.github.com/)
 
