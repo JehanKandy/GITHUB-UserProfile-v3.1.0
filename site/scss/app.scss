@@ -8,6 +8,7 @@
     --link-text: white;
     --link-hover-time: 0.5s;
     --normal-title: 30px;
+    --font-black: black;
 }
 *{
     color: white;
@@ -48,4 +49,7 @@
 .footer-title{
     font-size: var(--normal-title);
     margin-bottom: 20px;
+}
+.main-content{
+    color: var(--font-black);
 }
