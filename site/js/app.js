@@ -50,7 +50,7 @@ form.addEventListener('submit', function(e){
                 <center><img src='${data.avatar_url}' class='user-img'></center>
                 <div class='row result-content'>
                     <div class='col-lg-6'>
-
+                        asd
                     </div>
                     <div class='col-lg-6'>
                         Username : ${data.login}
