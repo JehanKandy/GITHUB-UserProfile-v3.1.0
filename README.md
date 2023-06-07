@@ -2,7 +2,7 @@
 
 view the Project at [GITHUB UserProfile]()
 
-Previous Project [GITHUB UserProfilePrevious Project]()
+Previous Project [GITHUB UserProfilePrevious Project](https://jehankandy.github.io/GITHUB-UserProfile-v1.0.0/)
 
 GitHub API - [GitHub API](https://api.github.com/)
 
