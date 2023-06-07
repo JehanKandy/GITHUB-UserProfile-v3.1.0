@@ -26,3 +26,10 @@ fetch('footer.html')
     footer.innerHTML=data
 });
 
+
+var form = document.getElementById('myform');
+
+form.addEventListener('submit', function(e){
+    e.preventDefault()
+
+})
