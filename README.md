@@ -123,7 +123,12 @@ But publish version is 0.3.4 (01 June 2023)
 # Releases
 
 ## release 1.0.0 (06 June 2023) - (Latest)
-- - This is the next major release of the Project
+- - This is the 3rd major release of the Project
+- - Adding new Themes for Project 
+- - This version develop for Testing (2.0.0-beta1 (07 June 2023) - Latest)
+
+## release 1.0.0 (06 June 2023) - (Latest)
+- - This is the 2rd major release of the Project
 - - Adding repositories Search 
 
 ## release 0.4.0 (05 June 2023) 
