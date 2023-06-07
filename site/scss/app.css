@@ -65,4 +65,5 @@
 
 .main-title {
   color: var(--font-black);
+  margin-bottom: 20px;
 }
