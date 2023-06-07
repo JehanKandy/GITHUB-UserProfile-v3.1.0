@@ -46,7 +46,9 @@ form.addEventListener('submit', function(e){
     .then((data) => {
         
     document.getElementById("result").innerHTML = `
-        <p>Username : ${data.company}</p>  
+            <div class='main-result'>
+                <p>${data.login}</p>
+            </div>
         `
 
     })
