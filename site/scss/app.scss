@@ -2,6 +2,7 @@
 :root{
     --font-color:red;
     --main-title: 'Rubik', sans-serif;
+    --normal-ftext: 'Roboto', sans-serif;
     --title-size: 80px;
     --normal-text: 20px;
     --hover-normal-text: 22px;
@@ -52,4 +53,5 @@
 }
 .main-content{
     color: var(--font-black);
+    font-family: var(--normal-ftext);
 }
