@@ -12,6 +12,13 @@ fetch('nav_profile.html')
     nav_profile.innerHTML=data
 });
 
+const nav_repo = document.querySelector('.nav-repo')
+fetch('repo_nav.html')
+.then(res=>res.text())
+.then(data=>{
+    nav_repo.innerHTML=data
+});
+
 const footer = document.querySelector('.main-footer')
 fetch('footer.html')
 .then(res=>res.text())
