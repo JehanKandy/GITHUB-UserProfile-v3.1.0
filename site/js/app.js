@@ -32,4 +32,13 @@ var form = document.getElementById('myform');
 form.addEventListener('submit', function(e){
     e.preventDefault()
 
+    fetch("https://api.github.com/users/"+oname)
+    .then((result) => result.json())
+    .then((data) => {
+        
+        document.getElementById("result").innerHTML = `
+            Username : ${data.login}
+        `;
+
+    })
 })
