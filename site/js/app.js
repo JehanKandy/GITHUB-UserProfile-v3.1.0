@@ -31,14 +31,23 @@ var form = document.getElementById('myform');
 
 form.addEventListener('submit', function(e){
     e.preventDefault()
+    var search = document.forms["myForm"]["search"].value;
+  
+    if(search == ""){
+        alert("Enter a valid Github username");
+        return false;
+    }
 
-    fetch("https://api.github.com/users/"+oname)
+    var oname = search.split(' ').join()
+    alert(oname);
+
+    fetch("https://api.github.com/users/" + oname)
     .then((result) => result.json())
     .then((data) => {
         
-        document.getElementById("result").innerHTML = `
-            Username : ${data.login}
-        `;
+    document.getElementById("result").innerHTML = `
+        <p>Username : ${data.company}</p>  
+        `
 
     })
 })
