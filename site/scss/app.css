@@ -67,3 +67,7 @@
   color: var(--font-black);
   margin-bottom: 20px;
 }
+
+.main-body {
+  font-family: var(--normal-ftext);
+}
