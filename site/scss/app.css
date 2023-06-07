@@ -94,7 +94,13 @@
 }
 
 .main-result {
-  margin: 20px 50px;
+  padding: 20px 50px;
+  background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+}
+
+.user-img {
+  border-radius: 5px;
+  width: 50%;
 }
 
 .result-content {
