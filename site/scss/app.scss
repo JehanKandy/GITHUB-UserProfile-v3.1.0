@@ -7,14 +7,11 @@
     --normal-text: 20px;
     --hover-normal-text: 22px;
     --link-text: white;
+    --text-white: white;
     --link-hover-time: 0.5s;
     --normal-title: 30px;
     --font-black: black;
 }
-*{
-    color: white;
-}
-
 .all-image{
     background-position: center;
     background-repeat: no-repeat;
@@ -29,6 +26,7 @@
     padding: 150px 0;
     font-family: var(--main-title);
     font-size: var(--title-size);
+    color: var(--text-white);
 }
 .normal-text{
     font-size: var(--normal-text);
@@ -46,10 +44,12 @@
 .main-footer{
     background-color: rgb(37, 37, 37);
     padding: 50px 0;
+    color: var(--text-white);
 }
 .footer-title{
     font-size: var(--normal-title);
     margin-bottom: 20px;
+    color: var(--text-white);
 }
 .main-content{
     color: var(--font-black);
