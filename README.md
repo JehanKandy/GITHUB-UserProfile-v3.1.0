@@ -1,6 +1,6 @@
 # GITHUB-UserProfile
 
-view the Project at [GITHUB UserProfile]()
+view the Project at [GITHUB UserProfile The 2.0.0-beta1 (07 June 2023)]()
 
 Previous Project [GITHUB UserProfilePrevious Project](https://jehankandy.github.io/GITHUB-UserProfile-v1.0.0/)
 
