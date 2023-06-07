@@ -77,3 +77,7 @@
   border-radius: 5px;
   margin-bottom: 15px;
 }
+
+.back-btn {
+  font-size: var(--normal-text);
+}
