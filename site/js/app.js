@@ -117,4 +117,12 @@ form.addEventListener('submit', function(e){
         `
 
     })
+
+    
+    fetch("https://api.github.com/users/"+oname+"/followers")
+    .then((result_folllow) => result_folllow.json())
+    .then((data_follow) => {
+
+        
+    })
 })
