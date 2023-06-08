@@ -64,7 +64,8 @@ form.addEventListener('submit', function(e){
                 <hr>
                 <div class='row result-content'>
                     <div class='col-lg-2'>
-                        <img src='${data.avatar_url}' class='user-img'>
+                        <h3>Location</h3>
+                        <p>I am 
                     </div>
                     <div class='col-lg-6'>
                         <h2>My Bio :</h2>  <br>
