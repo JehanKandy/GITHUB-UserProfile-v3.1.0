@@ -91,6 +91,25 @@ form.addEventListener('submit', function(e){
                     </div>
                 </div>
                 <hr>
+                <div class='row result-content'>
+                    <div class='col-lg-3'>
+                        <h3>Location</h3>
+                        <p>I am currently live in ${data.location}.</p>
+                    </div>
+                    <div class='col-lg-3'>
+                        <h3>My Company</h3>
+                        <p>${data.company}.</p>
+                    </div>
+                    <div class='col-lg-3'> 
+                        <h3>My Blog</h3>
+                        <p><a href='${data.blog}' target='_blank'>${data.blog}</a></p>
+
+                    </div>
+                    <div class='col-lg-3'> 
+                        <h3>I am</h3>
+                        <p>${hire}</p>
+                    </div>
+                </div>
 
                 
             </div>
