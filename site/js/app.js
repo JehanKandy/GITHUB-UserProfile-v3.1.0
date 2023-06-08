@@ -45,6 +45,15 @@ form.addEventListener('submit', function(e){
     .then((result) => result.json())
     .then((data) => {
         
+
+    if(data.hireable == true){
+        var hire = "Hireable";
+    }
+    else if(data.hireable == false){
+        var hire = "Not Hireable";
+    }
+
+
     document.getElementById("result").innerHTML = `
             <div class='main-result'>
                 <h1>Username : ${data.login} </h1>
