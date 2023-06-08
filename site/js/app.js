@@ -101,8 +101,8 @@ form.addEventListener('submit', function(e){
                         <p>${data.public_repos} Public Repositories</p>
                     </div>
                     <div class='col-lg-3'> 
-                        <h3>My Blog</h3>
-                        <p><a href='${data.blog}' target='_blank'>${data.blog}</a></p>
+                        <h3>I Have</h3>
+                        <p>Followers</p>
 
                     </div>
                     <div class='col-lg-3'> 
