@@ -58,7 +58,7 @@ form.addEventListener('submit', function(e){
                     </div>
                     <div class='col-lg-4'> 
                         <p><b>Created At : </b>${data.created_at}</p>
-                        <p><b>Lasr Update At : </b>${data.updated_at}</p>
+                        <p><b>Last Update At : </b>${data.updated_at}</p>
                     </div>
                 </div>
                 
