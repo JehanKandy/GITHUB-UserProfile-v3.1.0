@@ -57,14 +57,8 @@ form.addEventListener('submit', function(e){
                         <p>Hi all I am ${data.login}. and I am ${data.bio}
                     </div>
                     <div class='col-lg-4'> 
-
-                            <dic class='col-lg-2'>
-                                <p><b>Created At : </b>${data.created_at}</p>
-                            </div>
-                            <dic class='col-lg-2'>
-                                <p><b>Created At : </b>${data.created_at}</p>
-                            </div>
-
+                        <p><b>Created At : </b>${data.created_at}</p>
+                        <p><b>Created At : </b>${data.created_at}</p>
                     </div>
                 </div>
                 
