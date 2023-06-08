@@ -90,6 +90,7 @@ form.addEventListener('submit', function(e){
                         <p>${hire}</p>
                     </div>
                 </div>
+                <hr>
 
                 
             </div>
