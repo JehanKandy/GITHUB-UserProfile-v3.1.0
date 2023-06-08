@@ -61,6 +61,7 @@ form.addEventListener('submit', function(e){
                         <p><b>Last Update At : </b>${data.updated_at}</p>
                     </div>
                 </div>
+                <hr
                 
             </div>
         `
