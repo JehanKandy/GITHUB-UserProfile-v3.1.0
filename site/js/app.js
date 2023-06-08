@@ -73,7 +73,7 @@ form.addEventListener('submit', function(e){
                     </div>
                     <div class='col-lg-3'> 
                         <h3>My Blog</h3>
-                        <p>${data.blog}</p>
+                        <p><a href='${data.blog}' target='_blank'>${data.blog}</a></p>
 
                     </div>
                     <div class='col-lg-3'> 
