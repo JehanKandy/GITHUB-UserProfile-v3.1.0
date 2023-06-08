@@ -152,7 +152,7 @@ form.addEventListener('submit', function(e){
 
         let countFollowing = `
                 <div class='col-lg-6'>
-                    <h2>Some of My followers</h2>`;
+                    <h2>Some of I Following</h2>`;
 
         for(let i = 0; i < data_follow.length; i++){
             //countFollowing += '<div>' + data_follow[i].login + '</div>';
