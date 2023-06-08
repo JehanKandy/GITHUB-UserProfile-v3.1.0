@@ -98,7 +98,7 @@ form.addEventListener('submit', function(e){
                     </div>
                     <div class='col-lg-3'>
                         <h3>I have Created </h3>
-                        <p>${data.company} Public Repositories</p>
+                        <p>${data.public_repos} Public Repositories</p>
                     </div>
                     <div class='col-lg-3'> 
                         <h3>My Blog</h3>
