@@ -19,11 +19,12 @@ Please use version [1.0.0 (06 June 2023)](https://jehankandy.github.io/GITHUB-Us
 - - This is the 3rd major release of the Project
 <br>
 
-- - Adding new Themes for Project 
+- - Adding new Themes for Project and Update 
 <br>
 
-- - This version was developed for Testing (2.0.0-beta1 (07 June 2023) - Latest)
+- - Update User Profile
 <br>
+
 
 - The 2.0.0-beta1 (07 June 2023) 
 <br>
