@@ -140,18 +140,16 @@ form.addEventListener('submit', function(e){
     .then((result_folllowing) => result_folllowing.json())
     .then((data_following) => {
 
-        var followeings = document.getElementById('following');
+        var myfollowing = document.getElementById('following');
 
-        let countFollowing = "<h2>Some of I Following</h2>";
-
-        for(let i = 0; i < data_follow.length; i++){
-            //countFollowing += '<div>' + data_follow[i].login + '</div>';
-            countFollowing += "<span><a href='" + data_following[i].html_url + "' target='_blank'><img src='" + data_following[i].avatar_url + "' class='follower-img'></a> "+ data_following[i].login +"</span><br>";
+        let countfollowing = '<hr><h2>Some of I Following</h2>';
+        
+        for(let i = 0; i < data_following.length; i++){
+            //countfollowing += '<div>' + data_following[i].login + '</div>';
+            countfollowing += "<a href='"+ data_following[i].html_url +"' target='_blank'><img src='" + data_following[i].avatar_url + "' class='follower-img'></a>";
         }
 
-
-
-        followeings.innerHTML = countFollowing;
-
+        myfollowing.innerHTML = countfollowing;
     })
+
 })
