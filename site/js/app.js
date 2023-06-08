@@ -102,12 +102,12 @@ form.addEventListener('submit', function(e){
                     </div>
                     <div class='col-lg-3'> 
                         <h3>I Have</h3>
-                        <p>${data.followers}Followers</p>
+                        <p>${data.followers} Followers</p>
 
                     </div>
                     <div class='col-lg-3'> 
-                        <h3>I am</h3>
-                        <p>${hire}</p>
+                        <h3>I am Following</h3>
+                        <p>${data.following} Users</p>
                     </div>
                 </div>
 
