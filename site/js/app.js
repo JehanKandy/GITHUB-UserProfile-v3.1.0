@@ -55,7 +55,7 @@ form.addEventListener('submit', function(e){
 
 
     document.getElementById("result").innerHTML = `
-            <div class='main-result'>
+           
                 <h1>Username : ${data.login} </h1>
                 <div class='row result-content'>
                     <div class='col-lg-2'>
