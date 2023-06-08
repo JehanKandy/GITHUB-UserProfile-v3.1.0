@@ -77,8 +77,8 @@ form.addEventListener('submit', function(e){
 
                     </div>
                     <div class='col-lg-3'> 
-                        <p><b>Created At : </b>${data.created_at}</p>
-                        <p><b>Last Update At : </b>${data.updated_at}</p>
+                        <h3>I am</h3>
+                        <p>${data.hireable}</p>
                     </div>
                 </div>
 
