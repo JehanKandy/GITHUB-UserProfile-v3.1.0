@@ -122,7 +122,17 @@ form.addEventListener('submit', function(e){
     fetch("https://api.github.com/users/"+oname+"/followers")
     .then((result_folllow) => result_folllow.json())
     .then((data_follow) => {
-
         
+        var followers = document.getElementById('result2');
+
+        let countFollowers = '<hr><h2>Some of My followers</h2>';
+
+        for(let i = 0; i < data_follow.length; i++){
+            //countFollowers += '<div>' + data_follow[i].login + '</div>';
+            countFollowers += "<a href='" + data_follow[i].html_url + "' target='_blank'><img src='" + data_follow[i].avatar_url + "' class='follower-img'></>";
+        }
+
+        followers.innerHTML = countFollowers;
+
     })
 })
