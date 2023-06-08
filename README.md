@@ -99,6 +99,7 @@ But publish version is 0.3.4 (01 June 2023)
 | Title | Custom Github Achievements | How to earn | Achievement Status |
 |:--------:|:-------------:|:----------:|:----------:|
 
+new Achievements are still developing for the latest versions
 
 
 
