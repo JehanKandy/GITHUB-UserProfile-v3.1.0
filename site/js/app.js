@@ -125,12 +125,20 @@ form.addEventListener('submit', function(e){
 
         var followers = document.getElementById('followers');
 
-        let countFollowers = `<h2>Some of My followers</h2>`;
+        let countFollowers = `
+            <div class='row result-content'>
+                <div class='col-lg-6'>
+                    <h2>Some of My followers</h2>`;
 
         for(let i = 0; i < data_follow.length; i++){
             //countFollowers += '<div>' + data_follow[i].login + '</div>';
             countFollowers += "<span><a href='" + data_follow[i].html_url + "' target='_blank'><img src='" + data_follow[i].avatar_url + "' class='follower-img'></a> "+ data_follow[i].login +"</span>";
         }
+
+        countFollowers += `
+                </div>
+            <div>
+        `
 
         followers.innerHTML = countFollowers;
 
