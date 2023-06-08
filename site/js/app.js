@@ -140,7 +140,7 @@ form.addEventListener('submit', function(e){
     .then((result_folllowing) => result_folllowing.json())
     .then((data_following) => {
 
-        var followeings = document.getElementById('followers');
+        var followeings = document.getElementById('following');
 
         let countFollowing = "<h2>Some of I Following</h2>";
 
