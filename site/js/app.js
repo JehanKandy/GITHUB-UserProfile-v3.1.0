@@ -57,13 +57,14 @@ form.addEventListener('submit', function(e){
                         <p>Hi all I am ${data.login}. and I am ${data.bio}
                     </div>
                     <div class='col-lg-4'> 
-                    <h2>Account</h2> 
-                        <dic class='col-lg-2'>
-                            <p><b><h4>Created At : </b></h4>${data.created_at}</p>
-                        </div>
-                        <dic class='col-lg-2'>
-                            <p><b><h4>Created At : </b></h4>${data.created_at}</p>
-                        </div>
+
+                            <dic class='col-lg-2'>
+                                <p><b>Created At : </b>${data.created_at}</p>
+                            </div>
+                            <dic class='col-lg-2'>
+                                <p><b>Created At : </b>${data.created_at}</p>
+                            </div>
+
                     </div>
                 </div>
                 
