@@ -137,7 +137,7 @@ form.addEventListener('submit', function(e){
 
         countFollowers += `
                 </div>
-            <div>
+            
         `
 
         followers.innerHTML = countFollowers;
@@ -161,6 +161,7 @@ form.addEventListener('submit', function(e){
 
         countFollowing += `
                 </div>
+            </div>
         `
 
         followeings.innerHTML = countFollowing;
