@@ -110,8 +110,9 @@ form.addEventListener('submit', function(e){
                         <p>${data.following} Users</p>
                     </div>
                 </div>
+                <hr>
 
-                
+                                
             </div>
         `
 
