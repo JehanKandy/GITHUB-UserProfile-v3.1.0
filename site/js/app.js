@@ -97,8 +97,8 @@ form.addEventListener('submit', function(e){
                         <p><a href='https://twitter.com/${data.twitter_username}' target='_blank'>@${data.twitter_username}</a></p>
                     </div>
                     <div class='col-lg-3'>
-                        <h3>My Company</h3>
-                        <p>${data.company}.</p>
+                        <h3>I have Created </h3>
+                        <p>${data.company} Public Repositories</p>
                     </div>
                     <div class='col-lg-3'> 
                         <h3>My Blog</h3>
