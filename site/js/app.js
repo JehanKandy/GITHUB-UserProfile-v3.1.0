@@ -145,25 +145,25 @@ form.addEventListener('submit', function(e){
     })
 
     fetch("https://api.github.com/users/"+oname+"/following")
-    .then((result_folllow) => result_folllow.json())
-    .then((data_follow) => {
+    .then((result_folllowing) => result_folllowing.json())
+    .then((data_following) => {
 
-        var followers = document.getElementById('followers');
+        var followeings = document.getElementById('followers');
 
-        let countFollowers = `
+        let countFollowing = `
                 <div class='col-lg-6'>
                     <h2>Some of My followers</h2>`;
 
         for(let i = 0; i < data_follow.length; i++){
-            //countFollowers += '<div>' + data_follow[i].login + '</div>';
-            countFollowers += "<span><a href='" + data_follow[i].html_url + "' target='_blank'><img src='" + data_follow[i].avatar_url + "' class='follower-img'></a> "+ data_follow[i].login +"</span><br>";
+            //countFollowing += '<div>' + data_follow[i].login + '</div>';
+            countFollowing += "<span><a href='" + data_following[i].html_url + "' target='_blank'><img src='" + data_following[i].avatar_url + "' class='follower-img'></a> "+ data_following[i].login +"</span><br>";
         }
 
-        countFollowers += `
+        countFollowing += `
                 </div>
         `
 
-        followers.innerHTML = countFollowers;
+        followeings.innerHTML = countFollowing;
 
     })
 })
