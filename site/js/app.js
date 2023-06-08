@@ -65,15 +65,16 @@ form.addEventListener('submit', function(e){
                 <div class='row result-content'>
                     <div class='col-lg-3'>
                         <h3>Location</h3>
-                        <p>I am currently live in ${data.location}.
+                        <p>I am currently live in ${data.location}.</p>
                     </div>
                     <div class='col-lg-3'>
                         <h3>My Company</h3>
-                        <p>${data.company}.
+                        <p>${data.company}.</p>
                     </div>
                     <div class='col-lg-3'> 
-                        <p><b>Created At : </b>${data.created_at}</p>
-                        <p><b>Last Update At : </b>${data.updated_at}</p>
+                        <h3>My Blog</h3>
+                        <p>${data.blog}</p>
+
                     </div>
                     <div class='col-lg-3'> 
                         <p><b>Created At : </b>${data.created_at}</p>
