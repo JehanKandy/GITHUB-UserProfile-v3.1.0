@@ -94,7 +94,7 @@ form.addEventListener('submit', function(e){
                 <div class='row result-content'>
                     <div class='col-lg-3'>
                         <h3>I am in Twitter</h3>
-                        <p><a href='https://twitter.com/${login}' target='_blank'></p>
+                        <p><a href='https://twitter.com/${login}' target='_blank'>@${}</p>
                     </div>
                     <div class='col-lg-3'>
                         <h3>My Company</h3>
