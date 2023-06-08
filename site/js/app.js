@@ -142,11 +142,11 @@ form.addEventListener('submit', function(e){
 
         var myfollowing = document.getElementById('following');
 
-        let countfollowing = '<hr><h2>Some of I Following</h2>';
+        let countfollowing = '<h2>Some of I Following</h2>';
         
         for(let i = 0; i < data_following.length; i++){
             //countfollowing += '<div>' + data_following[i].login + '</div>';
-            countfollowing += "<a href='"+ data_following[i].html_url +"' target='_blank'><img src='" + data_following[i].avatar_url + "' class='follower-img'></a>";
+            countfollowing += "<a href='"+ data_following[i].html_url +"' target='_blank'><img src='" + data_following[i].avatar_url + "' class='follower-img'></a> "+ data_following[i].login +"</span><br>";
         }
 
         myfollowing.innerHTML = countfollowing;
