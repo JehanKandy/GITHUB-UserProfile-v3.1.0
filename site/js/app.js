@@ -93,8 +93,8 @@ form.addEventListener('submit', function(e){
                 <hr>
                 <div class='row result-content'>
                     <div class='col-lg-3'>
-                        <h3>Location</h3>
-                        <p>I am currently live in ${data.location}.</p>
+                        <h3>I am in Twitter</h3>
+                        <p></p>
                     </div>
                     <div class='col-lg-3'>
                         <h3>My Company</h3>
