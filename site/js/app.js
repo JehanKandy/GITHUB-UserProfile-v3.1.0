@@ -165,7 +165,8 @@ form.addEventListener('submit', function(e){
 
             countorg += `<span><img src='${data_org[i].avatar_url}' class='org-img'>
                         <span class='org-name'>${data_org[i].login}</span></span>
-            <br>`;
+            <br>
+            <hr style='width:50%;'>`;
 
 
         }
