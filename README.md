@@ -144,7 +144,7 @@ new Achievements are still developing for the latest versions
 # Releases
 
 ## release 3.0.0-alpha1 (09 June 2023) - (pre-release)
-- - Trying Update to 3.0.0 
+- - Trying to Update to 3.0.0 
 - - The 3.0.0 Release will be added organization Search
 
 ## release 2.0.1 (09 June 2023) - (Latest)
