@@ -8,10 +8,16 @@ GitHub API - [GitHub API](https://api.github.com/)
 
 # About
 
-- This Project is davelop using [GitHub API (Application Programming Interface)](https://api.github.com/). And this Project is Under Development current version  is 2.0.0 (08 June 2023)  - Latest
+- This Project is davelop using [GitHub API (Application Programming Interface)](https://api.github.com/). And this Project is Under Development current version  is 2.0.1 (09 June 2023)  - Latest
 <br>
 
-- The 2.0.0 (08 June 2023) - Latest 
+- The 3.0.0-alpha1 (09 June 2023)
+<br>
+
+- The 2.0.1 (09 June 2023) - Latest 
+<br>
+
+- The 2.0.0 (08 June 2023) 
 <br>
 
 - - This is the 3rd major release of the Project
@@ -137,7 +143,10 @@ new Achievements are still developing for the latest versions
 
 # Releases
 
-## release 2.0.0(08 June 2023) - (Latest)
+## release 2.0.1 (09 June 2023) - (Latest)
+- - adding organization category for User Profile
+
+## release 2.0.0(08 June 2023)
 - - This is the 3rd major release of the Project
 - - Adding new Themes for Project and Update 
 - - Update User Profile
