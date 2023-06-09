@@ -163,6 +163,13 @@ form.addEventListener('submit', function(e){
         for(let i = 0; i < data_org.length; i++){
             //countfollowing += '<div>' + data_following[i].login + '</div>';
             countorg += "<img src='"+ data_org[i].avatar_url +"' class='org-img'>";
+
+            fetch("https://api.github.com/orgs/"+ data_org[i].login +"/orgs")
+            .then((result_org) => result_org.json())
+            .then((data_org) => {
+                countorg += "<img src='"+ data_org[i].avatar_url +"' class='org-img'>";
+
+            })
         }
 
         myorg.innerHTML = countorg;
