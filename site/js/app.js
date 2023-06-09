@@ -168,10 +168,10 @@ form.addEventListener('submit', function(e){
 
         myorg.innerHTML = countorg;
     })
-    fetch("https://api.github.com/org/"+oname)
+    fetch("https://api.github.com/org/"+org)
     .then((result_org) => result_org.json())
     .then((data_org) => {
-
+        
 
     })
 
