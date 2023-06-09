@@ -153,19 +153,19 @@ form.addEventListener('submit', function(e){
     })
 
     fetch("https://api.github.com/users/"+oname+"/orgs")
-    .then((result_folllowing) => result_folllowing.json())
-    .then((data_following) => {
+    .then((result_org) => result_org.json())
+    .then((data_org) => {
 
-        var myfollowing = document.getElementById('result-org');
+        var myorg = document.getElementById('result-org');
 
-        let countfollowing = '<h2>My Organizations</h2>';
+        let countorg = '<h2>My Organizations</h2>';
         
-        for(let i = 0; i < data_following.length; i++){
+        for(let i = 0; i < data_org.length; i++){
             //countfollowing += '<div>' + data_following[i].login + '</div>';
-            countfollowing += "<a href='"+ data_following[i].html_url +"' target='_blank'><img src='" + data_following[i].avatar_url + "' class='follower-img'></a> "+ data_following[i].login +"</span><br>";
+            countorg += "<a href='"+ data_org[i].html_url +"' target='_blank'><img src='" + data_org[i].avatar_url + "' class='follower-img'></a> "+ data_following[i].login +"</span><br>";
         }
 
-        myfollowing.innerHTML = countfollowing;
+        myorg.innerHTML = countorg;
     })
 
 
