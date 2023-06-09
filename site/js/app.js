@@ -162,7 +162,7 @@ form.addEventListener('submit', function(e){
         
         for(let i = 0; i < data_org.length; i++){
             //countfollowing += '<div>' + data_following[i].login + '</div>';
-            countorg += "<a href='"+ data_org[i].html_url +"' target='_blank'><img src='" + data_org[i].avatar_url + "' class='follower-img'></a> "+ data_following[i].login +"</span><br>";
+            countorg += "";
         }
 
         myorg.innerHTML = countorg;
