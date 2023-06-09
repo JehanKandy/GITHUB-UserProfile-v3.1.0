@@ -169,7 +169,7 @@ form.addEventListener('submit', function(e){
 
 
         }
-
+        countorg += "<hr>"
         myorg.innerHTML = countorg;
     })
 
