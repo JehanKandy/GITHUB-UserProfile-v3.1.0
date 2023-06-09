@@ -152,4 +152,21 @@ form.addEventListener('submit', function(e){
         myfollowing.innerHTML = countfollowing;
     })
 
+    fetch("https://api.github.com/users/"+oname+"/following")
+    .then((result_folllowing) => result_folllowing.json())
+    .then((data_following) => {
+
+        var myfollowing = document.getElementById('following');
+
+        let countfollowing = '<h2>Some of I Following</h2>';
+        
+        for(let i = 0; i < data_following.length; i++){
+            //countfollowing += '<div>' + data_following[i].login + '</div>';
+            countfollowing += "<a href='"+ data_following[i].html_url +"' target='_blank'><img src='" + data_following[i].avatar_url + "' class='follower-img'></a> "+ data_following[i].login +"</span><br>";
+        }
+
+        myfollowing.innerHTML = countfollowing;
+    })
+
+
 })
