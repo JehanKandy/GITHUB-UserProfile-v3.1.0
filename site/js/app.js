@@ -174,9 +174,9 @@ form.addEventListener('submit', function(e){
         myorg.innerHTML = countorg;
     })
     fetch("https://api.github.com/org/"+org)
-    .then((result_org) => result_org.json())
-    .then((data_org) => {
-
+    .then((result_org_one) => result_org_one.json())
+    .then((data_org_one) => {
+        var oneOrg = document.getElementById('one-org-data')
 
     })
 
