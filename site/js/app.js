@@ -152,13 +152,13 @@ form.addEventListener('submit', function(e){
         myfollowing.innerHTML = countfollowing;
     })
 
-    fetch("https://api.github.com/users/"+oname+"/following")
+    fetch("https://api.github.com/users/"+oname+"/orgs")
     .then((result_folllowing) => result_folllowing.json())
     .then((data_following) => {
 
-        var myfollowing = document.getElementById('following');
+        var myfollowing = document.getElementById('result-org');
 
-        let countfollowing = '<h2>Some of I Following</h2>';
+        let countfollowing = '<h2>My Organizations</h2>';
         
         for(let i = 0; i < data_following.length; i++){
             //countfollowing += '<div>' + data_following[i].login + '</div>';
