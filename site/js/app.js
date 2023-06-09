@@ -163,11 +163,7 @@ form.addEventListener('submit', function(e){
         for(let i = 0; i < data_org.length; i++){
             //countfollowing += '<div>' + data_following[i].login + '</div>';
             
-            fetch("https://api.github.com/orgs/"+ data_org[i].login)
-            .then((result_org_one) => result_org_one.json())
-            .then((data_org_one) => {
-                countorg += "<p>"+ data_org_one.followers +"</p>";
-            })
+
         }
 
         myorg.innerHTML = countorg;
