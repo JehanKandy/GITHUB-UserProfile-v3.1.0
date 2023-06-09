@@ -176,7 +176,9 @@ form.addEventListener('submit', function(e){
     fetch("https://api.github.com/org/"+org)
     .then((result_org_one) => result_org_one.json())
     .then((data_org_one) => {
-        var oneOrg = document.getElementById('one-org-data')
+        var oneOrg = document.getElementById('one-org-data');
+
+        let dataOneOrg = "<p>"+ data_org_one.login +"</p>"
 
     })
 
