@@ -167,7 +167,7 @@ form.addEventListener('submit', function(e){
             fetch("https://api.github.com/orgs/"+ data_org[i].login +"/orgs")
             .then((result_org_one) => result_org_one.json())
             .then((data_org_one) => {
-                countorg += "<img src='"+ data_org_one[i].avatar_url +"' class='org-img'>";
+                countorg += "<p></p>";
 
             })
         }
