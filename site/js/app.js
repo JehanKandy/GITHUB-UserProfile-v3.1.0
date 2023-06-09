@@ -161,25 +161,15 @@ form.addEventListener('submit', function(e){
         let countorg = '<h2>My Organizations</h2>';
         
         for(let i = 0; i < data_org.length; i++){
-            //countfollowing += '<div>' + data_following[i].login + '</div>';
-            let org = data_org[i].login;
+            //countorg += '<div>' + data_following[i].login + '</div>';
 
-            countorg += `
-                <div id='one-org-data'>  
-                </div>
-            `;
+            countorg += "<img src='' class='org-img'"
+
 
         }
 
         myorg.innerHTML = countorg;
     })
-    fetch("https://api.github.com/org/"+org)
-    .then((result_org_one) => result_org_one.json())
-    .then((data_org_one) => {
-        var oneOrg = document.getElementById('one-org-data');
 
-        let dataOneOrg = "<p>"+ data_org_one.login +"</p>"
-
-    })
 
 })
