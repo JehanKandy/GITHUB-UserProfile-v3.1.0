@@ -143,6 +143,9 @@ new Achievements are still developing for the latest versions
 
 # Releases
 
+## release 3.0.0-alpha1 (09 June 2023) - (pre-releases)
+- - adding organization category for User Profile
+
 ## release 2.0.1 (09 June 2023) - (Latest)
 - - adding organization category for User Profile
 
