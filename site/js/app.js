@@ -163,7 +163,7 @@ form.addEventListener('submit', function(e){
         for(let i = 0; i < data_org.length; i++){
             //countorg += '<div>' + data_following[i].login + '</div>';
 
-            countorg += "<img src='"+ data_org. +"' class='org-img'>";
+            countorg += "<img src='"+ data_org.avatar_url +"' class='org-img'>";
 
 
         }
