@@ -202,7 +202,7 @@ form.addEventListener('submit', function(e){
 
         document.getElementById('result-repo').innerHTML = `
             <div class='repo-card'>
-                ${repo_data.name}
+                <h3><a href='${repo_data.html_url}'>${repo_data.name}</a></h3>
             </div>
         
         `;        
