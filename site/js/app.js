@@ -236,6 +236,13 @@ form.addEventListener('submit', function(e){
         else if(repo_data.has_projects == true){
             var project = "<span class='green-b'>Has Project</span>";
         }
+        
+        if(repo_data.has_downloads == false){
+            var download = "<span class='green-b'>No Download</span>";
+        }
+        else if(repo_data.has_downloads == true){
+            var download = "<span class='green-b'>Has Download</span>";
+        }
 
         document.getElementById('result-repo').innerHTML = `
             <div class='repo-card'>
