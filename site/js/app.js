@@ -276,7 +276,7 @@ form.addEventListener('submit', function(e){
             var disable = "<span class='red-b'>Disabled</span>";
         }
         else if(repo_data.disabled == false){
-            var disable = "<span class='red-b'>Not Disabled</span>";
+            var disable = "<span class='green-b'>Not Disabled</span>";
         }
         document.getElementById('result-repo').innerHTML = `
             <div class='repo-card'>
