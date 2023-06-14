@@ -212,8 +212,8 @@ form.addEventListener('submit', function(e){
         if(repo_data.site_admin == false){
             var userAdmin = "<span class='red-b'>User</span>";
         }
-        else if(repo_data.site_admin == true){
-            var userAdmin = "<span class='green-b'>Admin</span>";
+        else if(repo_data.private == true){
+            var userAdmin = "<span class='green-b'>Private</span>";
         }
 
         document.getElementById('result-repo').innerHTML = `
