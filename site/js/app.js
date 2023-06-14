@@ -277,6 +277,11 @@ form.addEventListener('submit', function(e){
                                     <td>Repository has Issues</td>
                                     <td>${issues}</td>
                                 </tr>
+                                <tr>
+                                    <td>5</td>
+                                    <td>Repository has Projects</td>
+                                    <td>${project}</td>
+                                </tr>
                             </tbody>
                         </table>
                     </div>
