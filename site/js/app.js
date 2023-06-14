@@ -243,7 +243,7 @@ form.addEventListener('submit', function(e){
                                 </tr>
                                 <tr>
                                     <td>2</td>
-                                    <td>Repository State (Public/Private)</td>
+                                    <td>User State (Admin/User)</td>
                                     <td>${userAdmin}</td>
                                 </tr>
                             </tbody>
