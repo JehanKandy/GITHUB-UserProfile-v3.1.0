@@ -209,11 +209,11 @@ form.addEventListener('submit', function(e){
             var repo_p = "<span class='red-b'>Private</span>";
         }
 
-        if(repo_data.site_admin == false){
+        if(repo_data.owner.site_admin == false){
             var userAdmin = "<span class='red-b'>User</span>";
         }
-        else if(repo_data.private == true){
-            var userAdmin = "<span class='green-b'>Private</span>";
+        else if(repo_data.owner.site_admin == true){
+            var userAdmin = "<span class='green-b'>Admin</span>";
         }
 
         document.getElementById('result-repo').innerHTML = `
@@ -243,7 +243,7 @@ form.addEventListener('submit', function(e){
                                 </tr>
                                 <tr>
                                     <td>2</td>
-                                    <td>Owner State (Admin/User)</td>
+                                    <td>Repository State (Public/Private)</td>
                                     <td>${userAdmin}</td>
                                 </tr>
                             </tbody>
