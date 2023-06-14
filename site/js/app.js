@@ -19,8 +19,8 @@ fetch('repo_nav.html')
     nav_repo.innerHTML=data
 });
 
-const nav_org = document.querySelector('.nav-repo')
-fetch('repo_nav.html')
+const nav_org = document.querySelector('.nav-org')
+fetch('org_nav.html')
 .then(res=>res.text())
 .then(data=>{
     nav_org.innerHTML=data
