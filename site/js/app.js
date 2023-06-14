@@ -191,10 +191,10 @@ form.addEventListener('submit', function(e){
     var user = document.forms["repoForm"]["userName"].value;
     var repo = document.forms["repoForm"]["repoName"].value;
 
-    if(user == "" || repo == ""){
-        alert("Enter a valid Github username or Repository Name");
-        return false;
-    }
-    alert(user);
+    fetch("https://api.github.com/users/"+oname+"/orgs")
+    .then((result_org) => result_org.json())
+    .then((data_org) => {
 
+        
+    })
 })
