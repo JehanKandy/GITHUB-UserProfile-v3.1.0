@@ -205,6 +205,9 @@ form.addEventListener('submit', function(e){
         if(repo_data.private == false){
             var repo_p = "<span class='green-b'>Public</span>";
         }
+        else if(repo_data.private == true){
+            var repo_p = "<span class='green-b'>Private</span>";
+        }
 
         document.getElementById('result-repo').innerHTML = `
             <div class='repo-card'>
@@ -229,6 +232,11 @@ form.addEventListener('submit', function(e){
                                 <tr>
                                     <td>1</td>
                                     <td>Repository State (Public/Private)</td>
+                                    <td>${repo_p}</td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>Owner State (Admin/User)</td>
                                     <td>${repo_p}</td>
                                 </tr>
                             </tbody>
