@@ -192,11 +192,11 @@ form.addEventListener('submit', function(e){
     var repo = document.forms["repoForm"]["repoName"].value;
 
     fetch("https://api.github.com/repos/"+user+"/"+repo)
-    .then((result_org) => result_org.json())
-    .then((data_org) => {
+    .then((result_repo) => result_repo.json())
+    .then((data_repo) => {
 
         document.getElementById('result').innerHTML = `
-            <p>${}</p>
+            <p>${data_repo.description}</p>
         `
     })
 })
