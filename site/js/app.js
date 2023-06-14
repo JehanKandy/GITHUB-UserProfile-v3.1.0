@@ -201,7 +201,9 @@ form.addEventListener('submit', function(e){
     .then((repo_data) => {
 
         document.getElementById('result-repo').innerHTML = `
-            <p>${repo_data.name}</p>
+            <div class='repo-card'>
+            
+            </div>
         
         `;        
 
