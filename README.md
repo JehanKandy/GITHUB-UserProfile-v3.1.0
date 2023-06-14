@@ -1,8 +1,8 @@
 # GITHUB-UserProfile
 
-view the Project at [GITHUB UserProfile The 2.0.1 (09 June 2023)](https://jehankandy.github.io/GITHUB-UserProfile-v2.0.1/site/)
+view the Project at [GITHUB UserProfile The 2.0.1 (09 June 2023)](https://jehankandy.github.io/GITHUB-UserProfile-v3.0.0/site)
 
-Previous Project [GITHUB UserProfile Previous Project 1.0.0 (06 June 2023)](https://jehankandy.github.io/GITHUB-UserProfile-v2.0.1/)
+Previous Project [GITHUB UserProfile Previous Project 1.0.0 (06 June 2023)](https://jehankandy.github.io/GITHUB-UserProfile-v3.0.0/)
 
 GitHub API - [GitHub API](https://api.github.com/)
 
