@@ -273,10 +273,10 @@ form.addEventListener('submit', function(e){
         }
 
         if(repo_data.disabled == true){
-            var disablee = "<span class='red-b'>Disabled</span>";
+            var disable = "<span class='red-b'>Disabled</span>";
         }
         else if(repo_data.disabled == false){
-            var disablee = "<span class='red-b'>Not Disabled</span>";
+            var disable = "<span class='red-b'>Not Disabled</span>";
         }
         document.getElementById('result-repo').innerHTML = `
             <div class='repo-card'>
@@ -347,6 +347,11 @@ form.addEventListener('submit', function(e){
                                     <td>10</td>
                                     <td>Repository is Archive</td>
                                     <td>${archive}</td>
+                                </tr>
+                                <tr>
+                                    <td>11</td>
+                                    <td>Repository is Disable</td>
+                                    <td>${disable}</td>
                                 </tr>
                             </tbody>
                         </table>
