@@ -1,3 +1,5 @@
+
+
 const nav = document.querySelector('.nav-bar')
 fetch('nav.html')
 .then(res=>res.text())
