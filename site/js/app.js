@@ -203,7 +203,7 @@ form.addEventListener('submit', function(e){
     .then((repo_data) => {
 
         if(repo_data.private == false){
-            var repo_p = "<i class='bi-check2-circle' style='color:greem;'></i>";
+            var repo_p = "<i class='bi-check2-circle' style='color:green;'></i>";
         }
 
         document.getElementById('result-repo').innerHTML = `
