@@ -13,7 +13,7 @@
     <nav class="nav-repo"></nav>
 
     <div class="container">
-        <div class="main-content">
+        <!-- <div class="main-content">
             <form id="myForm" autocomplete="off" name="repoForm">
                 <div class="row">
                     <div class="col-lg-6">
@@ -41,6 +41,25 @@
                 <div id="result-repo">
                 </div>
             </div>
+        </div> -->
+        
+        <form id="myform" autocomplete="off" name="reposearch">
+            <div class="form-group"><br>
+                <h4>Github Username : </h4>
+                <input type="text" name="repos_user" class="form-control">
+            </div>
+            <div class="form-group">
+                <h4>Repository Name : </h4>
+                <input type="text" name="repos_name" class="form-control">
+            </div>
+            <div class="form-group">
+                <!-- <button class="btn btn-danger">Search User</button> -->
+                <br>
+                <input type="submit" value="Search Repository" class="btn btn-danger">
+            </div>
+        </form>
+
+        <div id="repo-search">                
         </div>
     </div>
 
