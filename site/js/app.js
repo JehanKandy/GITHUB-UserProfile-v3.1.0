@@ -227,7 +227,7 @@ form.addEventListener('submit', function(e){
                         <tr>
                             <td>1</td>
                             <td>User is Site Admin</td>
-                            <td></td>
+                            <td>${repo_p}</td>
                         </tr>
                     </tbody>
                 </table>
