@@ -216,6 +216,13 @@ form.addEventListener('submit', function(e){
             var userAdmin = "<span class='green-b'>Admin</span>";
         }
 
+        if(repo_data.fork == false){
+            var fork = "<span class='red-b'>NO Fork</span>";
+        }
+        else if(repo_data.fork == true){
+            var fork = "<span class='green-b'>Fork</span>";
+        }
+
         document.getElementById('result-repo').innerHTML = `
             <div class='repo-card'>
                 <h3><a href='${repo_data.html_url}' target='_blank'>${repo_data.name}</a></h3>
