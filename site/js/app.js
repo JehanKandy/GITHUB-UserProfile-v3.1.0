@@ -265,6 +265,13 @@ form.addEventListener('submit', function(e){
             var diss = "<span class='green-b'>Has Discussions</span>";
         }
 
+        if(repo_data.archived == false){
+            var archive = "<span class='red-b'>archived</span>";
+        }
+        else if(repo_data.archived == true){
+            var archive = "<span class='green-b'>No archive</span>";
+        }
+
         document.getElementById('result-repo').innerHTML = `
             <div class='repo-card'>
                 <h3><a href='${repo_data.html_url}' target='_blank'>${repo_data.name}</a></h3>
