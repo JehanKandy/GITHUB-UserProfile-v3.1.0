@@ -13,19 +13,19 @@
     <nav class="nav-repo"></nav>
 
     <div class="container">
-        <!-- <div class="main-content">
-            <form id="myForm" autocomplete="off" name="repoForm">
+        <div class="main-content">
+            <form id="myform" autocomplete="off" name="reposearch">
                 <div class="row">
                     <div class="col-lg-6">
                         <div class="form-group">
                             <label>Enter Github Username : </label>
-                            <input type="text" id="userName" class="form-control">
+                            <input type="text" name="repos_user" class="form-control">
                         </div>
                     </div>
                     <div class="col-lg-6">
                         <div class="form-group">
                             <label>Enter User's Repository : </label>
-                            <input type="text" id="repoName" class="form-control">
+                            <input type="text" name="repos_name" class="form-control">
                         </div>
                     </div>
                 </div>
@@ -41,26 +41,9 @@
                 <div id="result-repo">
                 </div>
             </div>
-        </div> -->
-        
-        <form id="myform" autocomplete="off" name="reposearch">
-            <div class="form-group"><br>
-                <h4>Github Username : </h4>
-                <input type="text" name="repos_user" class="form-control">
-            </div>
-            <div class="form-group">
-                <h4>Repository Name : </h4>
-                <input type="text" name="repos_name" class="form-control">
-            </div>
-            <div class="form-group">
-                <!-- <button class="btn btn-danger">Search User</button> -->
-                <br>
-                <input type="submit" value="Search Repository" class="btn btn-danger">
-            </div>
-        </form>
-
-        <div id="repo-search">                
         </div>
+        
+
     </div>
 
     <footer class="main-footer"></footer>

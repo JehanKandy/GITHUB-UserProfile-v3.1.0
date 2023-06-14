@@ -197,7 +197,7 @@ form.addEventListener('submit', function(e){
     .then((repo_result) => repo_result.json())
     .then((repo_data) => {
 
-        document.getElementById('repo-search').innerHTML = `
+        document.getElementById('result-repo').innerHTML = `
             <u><h1><b>Repository Full Name</b> : ${repo_data.full_name}</h1></u>
             <h2>Repository Owner</h2>            
             <div class='repo-owner'>
