@@ -255,7 +255,7 @@ form.addEventListener('submit', function(e){
                                 </tr>
                                 <tr>
                                     <td>3</td>
-                                    <td>User State (Admin/User)</td>
+                                    <td>Repository is Fork (True/False)</td>
                                     <td>${userAdmin}</td>
                                 </tr>
                             </tbody>
