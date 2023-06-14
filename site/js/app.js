@@ -209,6 +209,13 @@ form.addEventListener('submit', function(e){
             var repo_p = "<span class='red-b'>Private</span>";
         }
 
+        if(repo_data.site_admin == false){
+            var repo_p = "<span class='red-b'>User</span>";
+        }
+        else if(repo_data.site_admin == true){
+            var repo_p = "<span class='green-b'>Admin</span>";
+        }
+
         document.getElementById('result-repo').innerHTML = `
             <div class='repo-card'>
                 <h3><a href='${repo_data.html_url}' target='_blank'>${repo_data.name}</a></h3>
