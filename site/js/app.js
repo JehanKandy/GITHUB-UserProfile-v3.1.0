@@ -272,6 +272,12 @@ form.addEventListener('submit', function(e){
             var archive = "<span class='red-b'>Archived</span>";
         }
 
+        if(repo_data.disabled == true){
+            var disablee = "<span class='red-b'>Disabled</span>";
+        }
+        else if(repo_data.disabled == false){
+            var disablee = "<span class='red-b'>Not Disabled</span>";
+        }
         document.getElementById('result-repo').innerHTML = `
             <div class='repo-card'>
                 <h3><a href='${repo_data.html_url}' target='_blank'>${repo_data.name}</a></h3>
