@@ -191,4 +191,9 @@ form.addEventListener('submit', function(e){
     var user = document.forms["repoForm"]["userName"].value;
     var repo = document.forms["repoForm"]["repoName"].value;
 
+    if(user == "" || repo == ""){
+        alert("Enter a valid Github username or Repository Name");
+        return false;
+    }
+    
 })
