@@ -278,6 +278,13 @@ form.addEventListener('submit', function(e){
         else if(repo_data.disabled == false){
             var disable = "<span class='green-b'>Not Disabled</span>";
         }
+
+        if(repo_data.allow_forking == false){
+            var forking = "<span class='red-b'>False</span>";
+        }
+        else if(repo_data.allow_forking == true){
+            var forking = "<span class='green-b'True</span>";
+        }
         document.getElementById('result-repo').innerHTML = `
             <div class='repo-card'>
                 <h3><a href='${repo_data.html_url}' target='_blank'>${repo_data.name}</a></h3>
@@ -352,6 +359,11 @@ form.addEventListener('submit', function(e){
                                     <td>11</td>
                                     <td>Repository is Disable</td>
                                     <td>${disable}</td>
+                                </tr>
+                                <tr>
+                                    <td>12</td>
+                                    <td>Repository is Allow to Forking</td>
+                                    <td>${forking}</td>
                                 </tr>
                             </tbody>
                         </table>
