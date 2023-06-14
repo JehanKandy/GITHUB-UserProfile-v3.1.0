@@ -266,10 +266,10 @@ form.addEventListener('submit', function(e){
         }
 
         if(repo_data.archived == false){
-            var archive = "<span class='red-b'>archived</span>";
+            var archive = "<span class='red-b'>Archived</span>";
         }
         else if(repo_data.archived == true){
-            var archive = "<span class='green-b'>No archived</span>";
+            var archive = "<span class='green-b'>No Archived</span>";
         }
 
         document.getElementById('result-repo').innerHTML = `
