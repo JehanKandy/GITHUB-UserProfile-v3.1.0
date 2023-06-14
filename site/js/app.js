@@ -184,7 +184,7 @@ form.addEventListener('submit', function(e){
 
 })
 
-var form = document.getElementById('myform');
+var form = document.getElementById('repoForm');
 
 form.addEventListener('submit', function(e){
     e.preventDefault()
@@ -195,5 +195,6 @@ form.addEventListener('submit', function(e){
         alert("Enter a valid Github username or Repository Name");
         return false;
     }
-    
+    alert(user);
+
 })
