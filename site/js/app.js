@@ -210,10 +210,10 @@ form.addEventListener('submit', function(e){
         }
 
         if(repo_data.site_admin == false){
-            var repo_p = "<span class='red-b'>User</span>";
+            var userAdmin = "<span class='red-b'>User</span>";
         }
         else if(repo_data.site_admin == true){
-            var repo_p = "<span class='green-b'>Admin</span>";
+            var userAdmin = "<span class='green-b'>Admin</span>";
         }
 
         document.getElementById('result-repo').innerHTML = `
@@ -244,7 +244,7 @@ form.addEventListener('submit', function(e){
                                 <tr>
                                     <td>2</td>
                                     <td>Owner State (Admin/User)</td>
-                                    <td>${repo_p}</td>
+                                    <td>${userAdmin}</td>
                                 </tr>
                             </tbody>
                         </table>
