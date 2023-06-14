@@ -191,10 +191,12 @@ form.addEventListener('submit', function(e){
     var user = document.forms["repoForm"]["userName"].value;
     var repo = document.forms["repoForm"]["repoName"].value;
 
-    fetch("https://api.github.com/users/"+oname+"/orgs")
+    fetch("https://api.github.com/repos/"+user+"/"+repo)
     .then((result_org) => result_org.json())
     .then((data_org) => {
 
-        
+        document.getElementById('repo-search').innerHTML = `
+            
+        `
     })
 })
