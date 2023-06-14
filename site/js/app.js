@@ -251,6 +251,13 @@ form.addEventListener('submit', function(e){
             var wiki = "<span class='green-b'>Has Wiki</span>";
         }
 
+        if(repo_data.has_pages == false){
+            var Pages = "<span class='red-b'>No Pages</span>";
+        }
+        else if(repo_data.has_pages == true){
+            var Pages = "<span class='green-b'>Has Pages</span>";
+        }
+
         document.getElementById('result-repo').innerHTML = `
             <div class='repo-card'>
                 <h3><a href='${repo_data.html_url}' target='_blank'>${repo_data.name}</a></h3>
