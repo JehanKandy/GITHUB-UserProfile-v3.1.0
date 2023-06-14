@@ -206,7 +206,7 @@ form.addEventListener('submit', function(e){
             var repo_p = "<span class='green-b'>Public</span>";
         }
         else if(repo_data.private == true){
-            var repo_p = "<span class='green-b'>Private</span>";
+            var repo_p = "<span class='red-b'>Private</span>";
         }
 
         document.getElementById('result-repo').innerHTML = `
