@@ -217,10 +217,10 @@ form.addEventListener('submit', function(e){
         }
 
         if(repo_data.fork == false){
-            var fork = "<span class='red-b'>NO Fork</span>";
+            var fork = "<span class='red-b'>False</span>";
         }
         else if(repo_data.fork == true){
-            var fork = "<span class='green-b'>Fork</span>";
+            var fork = "<span class='green-b'>True</span>";
         }
 
         document.getElementById('result-repo').innerHTML = `
@@ -256,7 +256,7 @@ form.addEventListener('submit', function(e){
                                 <tr>
                                     <td>3</td>
                                     <td>Repository is Fork (True/False)</td>
-                                    <td>${userAdmin}</td>
+                                    <td>${fork}</td>
                                 </tr>
                             </tbody>
                         </table>
