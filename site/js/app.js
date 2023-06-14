@@ -200,6 +200,10 @@ form.addEventListener('submit', function(e){
     .then((repo_result) => repo_result.json())
     .then((repo_data) => {
 
+        if(repo_data.private == false){
+            var repo_p = "<i class='bi-check2-circle' style='color:greem;'></i>";
+        }
+
         document.getElementById('result-repo').innerHTML = `
             <div class='repo-card'>
                 <h3><a href='${repo_data.html_url}' target='_blank'>${repo_data.name}</a></h3>
@@ -214,12 +218,15 @@ form.addEventListener('submit', function(e){
                         <tr>
                             <th>#</th>
                             <th>Status</th>
-                            <th>True</th>
-                            <th>False</th>
+                            <th></th>
                         </tr>
                     </thead>
                     <tbody>
-                        
+                        <tr>
+                            <td>1</td>
+                            <td>User is Site Admin</td>
+                            <td></td>
+                        </tr>
                     </tbody>
                 </table>
 
