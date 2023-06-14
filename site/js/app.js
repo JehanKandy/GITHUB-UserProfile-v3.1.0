@@ -269,7 +269,7 @@ form.addEventListener('submit', function(e){
             var archive = "<span class='red-b'>archived</span>";
         }
         else if(repo_data.archived == true){
-            var archive = "<span class='green-b'>No archive</span>";
+            var archive = "<span class='green-b'>No archived</span>";
         }
 
         document.getElementById('result-repo').innerHTML = `
@@ -336,6 +336,11 @@ form.addEventListener('submit', function(e){
                                     <td>9</td>
                                     <td>Repository has Discussions</td>
                                     <td>${diss}</td>
+                                </tr>
+                                <tr>
+                                    <td>10</td>
+                                    <td>Repository has </td>
+                                    <td>${archive}</td>
                                 </tr>
                             </tbody>
                         </table>
