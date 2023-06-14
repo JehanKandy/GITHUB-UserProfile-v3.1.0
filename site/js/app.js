@@ -313,6 +313,11 @@ form.addEventListener('submit', function(e){
                                     <td>Repository has Wiki</td>
                                     <td>${wiki}</td>
                                 </tr>
+                                <tr>
+                                    <td>8</td>
+                                    <td>Repository has Pages</td>
+                                    <td>${Pages}</td>
+                                </tr>
                             </tbody>
                         </table>
                     </div>
