@@ -21,7 +21,7 @@ GitHub API - [GitHub API](https://api.github.com/)
 <br>
 
 - - This is the 3rd major release of the Project
-<br>
+<br> 
 
 - - Adding new Themes for Project and Update 
 <br>
