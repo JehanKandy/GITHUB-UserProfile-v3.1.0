@@ -386,7 +386,7 @@ form.addEventListener('submit', function(e){
                                 </tr>
                                 <tr>
                                     <td>14</td>
-                                    <td>Repository is Template (True/False)</td>
+                                    <td>Repository is Web Commit Signoff Required (True/False)</td>
                                     <td>${template}</td>
                                 </tr>
                             </tbody>
