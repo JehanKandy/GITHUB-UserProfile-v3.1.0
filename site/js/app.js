@@ -258,6 +258,13 @@ form.addEventListener('submit', function(e){
             var Pages = "<span class='green-b'>Has Pages</span>";
         }
 
+        if(repo_data.has_discussions == false){
+            var diss = "<span class='red-b'>No Discussions</span>";
+        }
+        else if(repo_data.has_discussions == true){
+            var diss = "<span class='green-b'>Has Discussions</span>";
+        }
+
         document.getElementById('result-repo').innerHTML = `
             <div class='repo-card'>
                 <h3><a href='${repo_data.html_url}' target='_blank'>${repo_data.name}</a></h3>
@@ -317,6 +324,11 @@ form.addEventListener('submit', function(e){
                                     <td>8</td>
                                     <td>Repository has Pages</td>
                                     <td>${Pages}</td>
+                                </tr>
+                                <tr>
+                                    <td>9</td>
+                                    <td>Repository has Discussions</td>
+                                    <td>${diss}</td>
                                 </tr>
                             </tbody>
                         </table>
