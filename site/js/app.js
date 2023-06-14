@@ -195,8 +195,8 @@ form.addEventListener('submit', function(e){
     .then((result_org) => result_org.json())
     .then((data_org) => {
 
-        document.getElementById('repo-search').innerHTML = `
-            
+        document.getElementById('result').innerHTML = `
+            <p>${}</p>
         `
     })
 })
