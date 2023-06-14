@@ -135,3 +135,7 @@
     color: white;    
     padding: 5px;
 }
+.red-b{
+    @extend .green-b;
+    background-color: red;
+}

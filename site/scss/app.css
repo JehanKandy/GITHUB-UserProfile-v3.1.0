@@ -139,9 +139,13 @@
   color: rgb(87, 87, 87);
 }
 
-.green-b {
+.green-b, .red-b {
   background-color: green;
   border-radius: 2px;
   color: white;
   padding: 5px;
+}
+
+.red-b {
+  background-color: red;
 }
