@@ -205,9 +205,7 @@ form.addEventListener('submit', function(e){
                 <h3><a href='${repo_data.html_url}' target='_blank'>${repo_data.name}</a></h3>
                 <p class='repo-desc'>${repo_data.description}</p>
                 <p><b>Topics</b></p>
-                <ul>
-                    <li>${repo_data.topics}</li>
-                </ul>
+                ${repo_data.topics}
             </div>
         
         `;        
