@@ -262,6 +262,11 @@ form.addEventListener('submit', function(e){
                                 </tr>
                                 <tr>
                                     <td>3</td>
+                                    <td>Repository has Issues</td>
+                                    <td>${issues}</td>
+                                </tr>
+                                <tr>
+                                    <td>4</td>
                                     <td>Repository is Fork (True/False)</td>
                                     <td>${fork}</td>
                                 </tr>
