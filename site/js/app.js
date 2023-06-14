@@ -206,8 +206,8 @@ form.addEventListener('submit', function(e){
                 <p class='repo-desc'>${repo_data.description}</p>
                 <p><b>Topics</b></p>
                 ${repo_data.topics}
-                <br>
-                Repository Status
+                <br><br>
+                <h3>Repository Status</h3>
 
             </div>
         
