@@ -246,6 +246,11 @@ form.addEventListener('submit', function(e){
                                     <td>User State (Admin/User)</td>
                                     <td>${userAdmin}</td>
                                 </tr>
+                                <tr>
+                                    <td>3</td>
+                                    <td>User State (Admin/User)</td>
+                                    <td>${userAdmin}</td>
+                                </tr>
                             </tbody>
                         </table>
                     </div>
