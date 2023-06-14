@@ -126,3 +126,11 @@
   border-radius: 2px;
   padding: 20px;
 }
+
+.repo-card a {
+  text-decoration: none;
+}
+
+.repo-card a:hover {
+  text-decoration: underline;
+}
