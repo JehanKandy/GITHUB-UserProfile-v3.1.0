@@ -19,6 +19,14 @@ fetch('repo_nav.html')
     nav_repo.innerHTML=data
 });
 
+const nav_org = document.querySelector('.nav-repo')
+fetch('repo_nav.html')
+.then(res=>res.text())
+.then(data=>{
+    nav_org.innerHTML=data
+});
+
+
 const footer = document.querySelector('.main-footer')
 fetch('footer.html')
 .then(res=>res.text())
