@@ -283,14 +283,21 @@ form.addEventListener('submit', function(e){
             var forking = "<span class='red-b'>False</span>";
         }
         else if(repo_data.allow_forking == true){
-            var forking = "<span class='green-b'True</span>";
+            var forking = "<span class='green-b'>True</span>";
         }
 
         if(repo_data.is_template == false){
-            var template = "<span class='red-b'False</span>";
+            var template = "<span class='red-b'>False</span>";
         }
         else if(repo_data.is_template == true){
-            var template = "<span class='green-b'True</span>";
+            var template = "<span class='green-b'>True</span>";
+        }
+
+        if(repo_data.web_commit_signoff_required == true){
+            var web_commt = "<span class='green-b'>True</span>";
+        }
+        else if(repo_data.web_commit_signoff_required == false){
+            var web_commt = "<span class='red-b'>False</span>";
         }
         document.getElementById('result-repo').innerHTML = `
             <div class='repo-card'>
@@ -374,6 +381,11 @@ form.addEventListener('submit', function(e){
                                 </tr>
                                 <tr>
                                     <td>13</td>
+                                    <td>Repository is Template (True/False)</td>
+                                    <td>${template}</td>
+                                </tr>
+                                <tr>
+                                    <td>14</td>
                                     <td>Repository is Template (True/False)</td>
                                     <td>${template}</td>
                                 </tr>
