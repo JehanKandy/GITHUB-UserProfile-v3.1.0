@@ -215,22 +215,26 @@ form.addEventListener('submit', function(e){
                 <br><br>
                 <h3>Repository Status</h3>
 
-                <table class="table">
-                    <thead class="table-dark">
-                        <tr>
-                            <th>#</th>
-                            <th>Status</th>
-                            <th></th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>1</td>
-                            <td>User is Site Admin</td>
-                            <td>${repo_p}</td>
-                        </tr>
-                    </tbody>
-                </table>
+                <div class='row'>
+                    <div class='col-lg-6'>
+                        <table class="table">
+                            <thead class="table-dark">
+                                <tr>
+                                    <th>#</th>
+                                    <th>Status</th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1</td>
+                                    <td>User is Site Admin</td>
+                                    <td>${repo_p}</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
 
             </div>
         
