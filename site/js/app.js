@@ -223,6 +223,13 @@ form.addEventListener('submit', function(e){
             var fork = "<span class='green-b'>True</span>";
         }
 
+        if(repo_data.has_issues == false){
+            var issues = "<span class='red-b'>No Issues</span>";
+        }
+        else if(repo_data.has_issues == true){
+            var issues = "<span class='green-b'>Has Issues</span>";
+        }
+
         document.getElementById('result-repo').innerHTML = `
             <div class='repo-card'>
                 <h3><a href='${repo_data.html_url}' target='_blank'>${repo_data.name}</a></h3>
