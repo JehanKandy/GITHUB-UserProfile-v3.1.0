@@ -285,6 +285,13 @@ form.addEventListener('submit', function(e){
         else if(repo_data.allow_forking == true){
             var forking = "<span class='green-b'True</span>";
         }
+
+        if(repo_data.is_template == false){
+            var template = "<span class='red-b'False</span>";
+        }
+        else if(repo_data.is_template == true){
+            var template = "<span class='green-b'True</span>";
+        }
         document.getElementById('result-repo').innerHTML = `
             <div class='repo-card'>
                 <h3><a href='${repo_data.html_url}' target='_blank'>${repo_data.name}</a></h3>
@@ -364,6 +371,11 @@ form.addEventListener('submit', function(e){
                                     <td>12</td>
                                     <td>Repository is Allow to Forking (True/False)</td>
                                     <td>${forking}</td>
+                                </tr>
+                                <tr>
+                                    <td>13</td>
+                                    <td>Repository is Template (True/False)</td>
+                                    <td>${template}</td>
                                 </tr>
                             </tbody>
                         </table>
