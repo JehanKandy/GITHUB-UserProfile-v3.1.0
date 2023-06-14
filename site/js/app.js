@@ -203,7 +203,7 @@ form.addEventListener('submit', function(e){
     .then((repo_data) => {
 
         if(repo_data.private == false){
-            var repo_p = "<i class='bi-check2-circle' style='color:green;'></i>";
+            var repo_p = "<span class='green-b'>Public</span>";
         }
 
         document.getElementById('result-repo').innerHTML = `
@@ -228,7 +228,7 @@ form.addEventListener('submit', function(e){
                             <tbody>
                                 <tr>
                                     <td>1</td>
-                                    <td>User is Site Admin</td>
+                                    <td>Repository State (Public/Private)</td>
                                     <td>${repo_p}</td>
                                 </tr>
                             </tbody>
