@@ -339,7 +339,7 @@ form.addEventListener('submit', function(e){
                                 </tr>
                                 <tr>
                                     <td>10</td>
-                                    <td>Repository has </td>
+                                    <td>Repository is Archive</td>
                                     <td>${archive}</td>
                                 </tr>
                             </tbody>
