@@ -209,6 +209,20 @@ form.addEventListener('submit', function(e){
                 <br><br>
                 <h3>Repository Status</h3>
 
+                <table class="table">
+                    <thead class="table-dark">
+                        <tr>
+                            <th>#</th>
+                            <th>Status</th>
+                            <th>True</th>
+                            <th>False</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        
+                    </tbody>
+                </table>
+
             </div>
         
         `;        
