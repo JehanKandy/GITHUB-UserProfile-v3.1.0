@@ -261,7 +261,7 @@ form.addEventListener('submit', function(e){
                                     <td>${userAdmin}</td>
                                 </tr>
                                 <tr>
-                                    <td>4</td>
+                                    <td>3</td>
                                     <td>Repository is Fork (True/False)</td>
                                     <td>${fork}</td>
                                 </tr>
