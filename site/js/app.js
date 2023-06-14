@@ -244,6 +244,13 @@ form.addEventListener('submit', function(e){
             var download = "<span class='green-b'>Has Download</span>";
         }
 
+        if(repo_data.has_wiki == false){
+            var wiki = "<span class='red-b'>No Wiki</span>";
+        }
+        else if(repo_data.has_wiki == true){
+            var wiki = "<span class='green-b'>Has Wiki</span>";
+        }
+
         document.getElementById('result-repo').innerHTML = `
             <div class='repo-card'>
                 <h3><a href='${repo_data.html_url}' target='_blank'>${repo_data.name}</a></h3>
@@ -293,6 +300,11 @@ form.addEventListener('submit', function(e){
                                     <td>6</td>
                                     <td>Repository has Download</td>
                                     <td>${download}</td>
+                                </tr>
+                                <tr>
+                                    <td>7</td>
+                                    <td>Repository has Wiki</td>
+                                    <td>${wiki}</td>
                                 </tr>
                             </tbody>
                         </table>
