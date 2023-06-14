@@ -182,5 +182,13 @@ form.addEventListener('submit', function(e){
         myorg.innerHTML = countorg;
     })
 
+})
+
+var form = document.getElementById('myform');
+
+form.addEventListener('submit', function(e){
+    e.preventDefault()
+    var user = document.forms["repoForm"]["userName"].value;
+    var repo = document.forms["repoForm"]["repoName"].value;
 
 })
