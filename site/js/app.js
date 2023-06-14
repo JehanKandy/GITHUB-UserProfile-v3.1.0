@@ -230,6 +230,13 @@ form.addEventListener('submit', function(e){
             var issues = "<span class='green-b'>Has Issues</span>";
         }
 
+        if(repo_data.has_projects == false){
+            var project = "<span class='red-b'>No Project</span>";
+        }
+        else if(repo_data.has_projects == true){
+            var project = "<span class='green-b'>Has Project</span>";
+        }
+
         document.getElementById('result-repo').innerHTML = `
             <div class='repo-card'>
                 <h3><a href='${repo_data.html_url}' target='_blank'>${repo_data.name}</a></h3>
