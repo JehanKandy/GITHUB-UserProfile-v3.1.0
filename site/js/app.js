@@ -362,7 +362,7 @@ form.addEventListener('submit', function(e){
                                 </tr>
                                 <tr>
                                     <td>12</td>
-                                    <td>Repository is Allow to Forking</td>
+                                    <td>Repository is Allow to Forking (True/False)</td>
                                     <td>${forking}</td>
                                 </tr>
                             </tbody>
