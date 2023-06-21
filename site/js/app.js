@@ -397,7 +397,8 @@ form.addEventListener('submit', function(e){
                     </div>
 
         
-        `;                                            
+        `;                       
+        reposs.innerHTML = repos_all;                     
 
     })
     fetch("https://api.github.com/repos/"+git_user+"/"+git_repo+"/stargazers")
@@ -410,7 +411,7 @@ form.addEventListener('submit', function(e){
 
         </div>`
 
-        reposs.innerHTML = repos_all;
+        
     })
 
     
