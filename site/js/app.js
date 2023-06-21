@@ -419,10 +419,10 @@ form.addEventListener('submit', function(e){
         fetch("https://api.github.com/repos/"+git_user+"/"+git_repo+"/contributors")
         .then((repo_contributors) => repo_contributors.json())
         .then((repo_contributors_data) => {
-            repos_all += `
+            repos_all += `<br>
                 <div class='row'>
                 <div class='col-lg-6'>
-                    <h3>Repository Stargazers</h3>
+                    <h3>Repository contributors</h3>
                     <hr>
             `
                 
