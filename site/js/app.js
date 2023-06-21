@@ -427,7 +427,9 @@ form.addEventListener('submit', function(e){
             `
                 
             for(let i = 0; i < repo_contributors_data.length; i++){
-                repos_all += `<span>${repo_contributors_data[i].login} <a href='${repo_contributors_data[i].html_url}' target='_blank'><img src='${repo_contributors_data[i].avatar_url}' class='star-img'></a></span>`;
+                repos_all += `<h4>${repo_contributors_data[i].login} <a href='${repo_contributors_data[i].html_url}' target='_blank'><img src='${repo_contributors_data[i].avatar_url}' class='star-img'></a></h4>
+                            <h5>Contributions : ${repo_contributors_data[i].contributions}</h5>
+                `;
             }
 
             repos_all += `</div>
