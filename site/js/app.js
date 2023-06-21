@@ -412,9 +412,7 @@ form.addEventListener('submit', function(e){
             }
 
             repos_all += `</div>
-                </div>
-    
-            </div>`;
+                </div>`;
 
         })
 
@@ -435,6 +433,7 @@ form.addEventListener('submit', function(e){
             repos_all += `</div>
                 </div>
     
+            </div>
             </div>`;
     
             reposs.innerHTML = repos_all;   
