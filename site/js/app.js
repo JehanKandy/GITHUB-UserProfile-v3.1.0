@@ -393,13 +393,18 @@ form.addEventListener('submit', function(e){
                         </table>
                     </div>
                     <div class='col-lg-6'>
-                        
+
                     </div>
                 </div>
 
             </div>
         
         `;                                            
+
+    })
+    fetch("https://api.github.com/repos/"+git_user+"/"+git_repo+"/stargazers")
+    .then((repo_result) => repo_result.json())
+    .then((repo_data) => {
 
     })
 })
