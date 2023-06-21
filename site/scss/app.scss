@@ -139,3 +139,8 @@
     @extend .green-b;
     background-color: red;
 }
+.star-img{
+    @extend .follower-img;
+    height: 50px;
+    width: 50px;
+}
