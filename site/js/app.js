@@ -300,7 +300,7 @@ form.addEventListener('submit', function(e){
             var web_commt = "<span class='red-b'>False</span>";
         }
 
-        var repos = document.getElementById('result-repo');
+        var reposs = document.getElementById('result-repo');
 
          let repos_all = `
             <div class='repo-card'>
@@ -403,11 +403,14 @@ form.addEventListener('submit', function(e){
     fetch("https://api.github.com/repos/"+git_user+"/"+git_repo+"/stargazers")
     .then((repo_result) => repo_result.json())
     .then((repo_data) => {
-        `        <div class='col-lg-6'>
-
+        repos_all += `<div class='col-lg-6'>
+                    Hi all
                 </div>
             </div>
 
         </div>`
     })
+
+    reposs.innerHTML = repos_all;
+    
 })
