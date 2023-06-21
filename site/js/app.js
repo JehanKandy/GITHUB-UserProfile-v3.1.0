@@ -408,7 +408,7 @@ form.addEventListener('submit', function(e){
             `
                 
             for(let i = 0; i < repo_stargazers_data.length; i++){
-                repos_all += `<span>${repo_stargazers_data[i].login} <img src='${repo_stargazers_data[i].avatar_url}' class='star-img'></span>`;
+                repos_all += `<span>${repo_stargazers_data[i].login} <a href=''><img src='${repo_stargazers_data[i].avatar_url}' class='star-img'></a></span>`;
             }
 
             repos_all += `</div>
