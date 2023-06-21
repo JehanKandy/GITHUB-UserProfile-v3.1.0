@@ -405,7 +405,7 @@ form.addEventListener('submit', function(e){
             repos_all += `<div class='col-lg-6'>`
             
             for(let i = 0; i < repo_stargazers_data.length; i++){
-                repos_all += `<h5>${repo_stargazers_data[i.login]}</h5>`;
+                repos_all += `<h5>${repo_stargazers_data[i].login}</h5>`;
             }
 
             repos_all += `</div>
