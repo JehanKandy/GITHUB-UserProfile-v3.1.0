@@ -398,21 +398,23 @@ form.addEventListener('submit', function(e){
 
         
         `;                       
+        
+        fetch("https://api.github.com/repos/"+git_user+"/"+git_repo+"/stargazers")
+        .then((repo_result) => repo_result.json())
+        .then((repo_data) => {
+            repos_all += `<div class='col-lg-6'>
+                        Hi all
+                    </div>
+                </div>
+    
+            </div>`
+    
+            
+        })
         reposs.innerHTML = repos_all;                     
 
     })
-    fetch("https://api.github.com/repos/"+git_user+"/"+git_repo+"/stargazers")
-    .then((repo_result) => repo_result.json())
-    .then((repo_data) => {
-        repos_all += `<div class='col-lg-6'>
-                    Hi all
-                </div>
-            </div>
 
-        </div>`
-
-        
-    })
 
     
     
