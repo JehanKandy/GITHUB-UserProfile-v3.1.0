@@ -414,7 +414,28 @@ form.addEventListener('submit', function(e){
             repos_all += `</div>
                 </div>
     
-            </div>`
+            </div>`;
+
+        })
+
+        fetch("https://api.github.com/repos/"+git_user+"/"+git_repo+"/contributors")
+        .then((repo_contributors) => repo_contributors.json())
+        .then((repo_contributors_data) => {
+            repos_all += `
+                <div class='row'>
+                <div class='col-lg-6'>
+                    <h3>Repository Stargazers</h3>
+                    <hr>
+            `
+                
+            for(let i = 0; i < repo_stargazers_data.length; i++){
+                repos_all += `<span>${repo_stargazers_data[i].login} <a href='${repo_stargazers_data[i].html_url}' target='_blank'><img src='${repo_stargazers_data[i].avatar_url}' class='star-img'></a></span>`;
+            }
+
+            repos_all += `</div>
+                </div>
+    
+            </div>`;
     
             reposs.innerHTML = repos_all;   
         })
