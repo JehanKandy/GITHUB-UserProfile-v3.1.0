@@ -409,8 +409,10 @@ form.addEventListener('submit', function(e){
             </div>
 
         </div>`
+
+        reposs.innerHTML = repos_all;
     })
 
-    reposs.innerHTML = repos_all;
+    
     
 })
