@@ -299,6 +299,10 @@ form.addEventListener('submit', function(e){
         else if(repo_data.web_commit_signoff_required == false){
             var web_commt = "<span class='red-b'>False</span>";
         }
+
+        var repos = document.getElementById('result-repo');
+
+        let repos_all = '<h2>My Organizations</h2>';
         document.getElementById('result-repo').innerHTML = `
             <div class='repo-card'>
                 <h3><a href='${repo_data.html_url}' target='_blank'>${repo_data.name}</a></h3>
@@ -392,12 +396,7 @@ form.addEventListener('submit', function(e){
                             </tbody>
                         </table>
                     </div>
-                    <div class='col-lg-6'>
 
-                    </div>
-                </div>
-
-            </div>
         
         `;                                            
 
@@ -405,6 +404,11 @@ form.addEventListener('submit', function(e){
     fetch("https://api.github.com/repos/"+git_user+"/"+git_repo+"/stargazers")
     .then((repo_result) => repo_result.json())
     .then((repo_data) => {
+        `        <div class='col-lg-6'>
 
+                </div>
+            </div>
+
+        </div>`
     })
 })
