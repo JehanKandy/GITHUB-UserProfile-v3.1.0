@@ -402,8 +402,10 @@ form.addEventListener('submit', function(e){
         fetch("https://api.github.com/repos/"+git_user+"/"+git_repo+"/stargazers")
         .then((repo_stargazers) => repo_stargazers.json())
         .then((repo_stargazers_data) => {
-            repos_all += `<div class='col-lg-6'>`
-            
+            repos_all += `<div class='col-lg-6'>
+                <h3>Repository Stargazers</h3>
+            `
+                
             for(let i = 0; i < repo_stargazers_data.length; i++){
                 repos_all += `<span>${repo_stargazers_data[i].login} <img src='${repo_stargazers_data[i].avatar_url}' class='star-img'></span>`;
             }
