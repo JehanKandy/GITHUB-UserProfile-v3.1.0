@@ -302,8 +302,7 @@ form.addEventListener('submit', function(e){
 
         var repos = document.getElementById('result-repo');
 
-        let repos_all = '<h2>My Organizations</h2>';
-        document.getElementById('result-repo').innerHTML = `
+         let repos_all = `
             <div class='repo-card'>
                 <h3><a href='${repo_data.html_url}' target='_blank'>${repo_data.name}</a></h3>
                 <p class='repo-desc'>${repo_data.description}</p>
