@@ -422,7 +422,7 @@ form.addEventListener('submit', function(e){
             repos_all += `<br>
                 <div class='row'>
                 <div class='col-lg-6'>
-                    <h3>Repository contributors</h3>
+                    <h3>Repository Contributors</h3>
                     <hr>
             `
                 

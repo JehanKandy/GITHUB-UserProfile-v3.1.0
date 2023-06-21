@@ -148,7 +148,13 @@ new Achievements are still developing for the latest versions
 
 
 # Releases
+
 ## release 3.0.0 (14 June 2023) - (Latest)
+- - Update Github Repository Search
+- - - adding Repository Stargazers
+- - - Repository Contributors
+
+## release 3.0.0 (14 June 2023)
 - - added organization Search
 - - Update Repositories Search
 
