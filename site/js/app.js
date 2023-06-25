@@ -433,9 +433,7 @@ form.addEventListener('submit', function(e){
             }
 
             repos_all += `</div>
-    
-            </div>
-            </div>`;
+                `;
     
             reposs.innerHTML = repos_all;   
         })
@@ -443,7 +441,7 @@ form.addEventListener('submit', function(e){
         fetch("https://api.github.com/repos/"+git_user+"/"+git_repo+"/forks")
         .then((repo_forks) => repo_forks.json())
         .then((data_forks) => {
-            forks_all += `<br>
+            forks_all += `
                 <div class='col-lg-6'>
                     <h3>Repository Contributors</h3>
                     <hr>
