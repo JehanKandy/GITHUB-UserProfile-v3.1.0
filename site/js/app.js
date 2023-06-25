@@ -434,26 +434,25 @@ form.addEventListener('submit', function(e){
 
             repos_all += `</div>
                 `;
-    
-            reposs.innerHTML = repos_all;   
+
         })
 
         fetch("https://api.github.com/repos/"+git_user+"/"+git_repo+"/forks")
         .then((repo_forks) => repo_forks.json())
         .then((forks_data) => {
-            fork_all += `<div class='col-lg-6'>
-                <h3>Repository Stargazers</h3>
+            repos_all += `<div class='col-lg-6'>
+                <h3>Repository forkers</h3>
                 <hr>
             `
                 
             for(let i = 0; i < forks_data.length; i++){
-                fork_all += `<span>${forks_data[i].login} <a href='${forks_data[i].html_url}' target='_blank'><img src='${forks_data[i].avatar_url}' class='star-img'></a></span>`;
+                repos_all += `<span>${forks_data[i].owner.login} <a href='${forks_data[i].owner.html_url}' target='_blank'><img src='${forks_data[i].owner.avatar_url}' class='star-img'></a></span>`;
             }
 
-            fork_all += `</div>
+            repos_all += `</div>
                 </div>`;
 
-            reposs.innerHTML = fork_all;  
+            reposs.innerHTML = repos_all;  
 
         })
                           
