@@ -453,6 +453,8 @@ form.addEventListener('submit', function(e){
             fork_all += `</div>
                 </div>`;
 
+            reposs.innerHTML = repos_all;  
+
         })
                           
 
