@@ -446,8 +446,8 @@ form.addEventListener('submit', function(e){
                 <hr>
             `
                 
-            for(let i = 0; i < repo_stargazers_data.length; i++){
-                fork_all += `<span>${repo_stargazers_data[i].login} <a href='${repo_stargazers_data[i].html_url}' target='_blank'><img src='${repo_stargazers_data[i].avatar_url}' class='star-img'></a></span>`;
+            for(let i = 0; i < forks_data.length; i++){
+                fork_all += `<span>${forks_data[i].login} <a href='${forks_data[i].html_url}' target='_blank'><img src='${forks_data[i].avatar_url}' class='star-img'></a></span>`;
             }
 
             fork_all += `</div>
