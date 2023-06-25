@@ -440,6 +440,31 @@ form.addEventListener('submit', function(e){
     
             reposs.innerHTML = repos_all;   
         })
+
+        fetch("https://api.github.com/repos/"+git_user+"/"+git_repo+"/forks")
+        .then((repo_contributors) => repo_contributors.json())
+        .then((repo_contributors_data) => {
+            repos_all += `<br>
+                <div class='row'>
+                <div class='col-lg-6'>
+                    <h3>Repository Contributors</h3>
+                    <hr>
+            `
+                
+            for(let i = 0; i < repo_contributors_data.length; i++){
+                repos_all += `<h4>${repo_contributors_data[i].login} <a href='${repo_contributors_data[i].html_url}' target='_blank'><img src='${repo_contributors_data[i].avatar_url}' class='star-img'></a></h4>
+                            <h5>Contributions : ${repo_contributors_data[i].contributions}</h5>
+                `;
+            }
+
+            repos_all += `</div>
+                </div>
+    
+            </div>
+            </div>`;
+    
+            reposs.innerHTML = repos_all;   
+        })
                           
 
     })
