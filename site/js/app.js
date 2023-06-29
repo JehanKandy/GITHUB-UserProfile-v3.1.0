@@ -475,7 +475,14 @@ form.addEventListener('submit', function(e){
     .then((org_result) => org_result.json())
     .then((org_data) => {
         
-        var reposs = document.getElementById('result-org');
+        var name_org = document.getElementById('result-org');
+
+        let org_all = `
+        
+        `;
+
+        name_org.innerHTML = org_all;
+
 
         
 
