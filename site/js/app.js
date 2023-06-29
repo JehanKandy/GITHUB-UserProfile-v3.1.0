@@ -474,7 +474,7 @@ form.addEventListener('submit', function(e){
     fetch("hhttps://api.github.com/orgs/"+org_name)
     .then((org_result) => org_result.json())
     .then((org_data) => {
-
+        
 
     }) 
 })
