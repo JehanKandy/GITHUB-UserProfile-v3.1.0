@@ -475,6 +475,9 @@ form.addEventListener('submit', function(e){
     .then((org_result) => org_result.json())
     .then((org_data) => {
         
+        var reposs = document.getElementById('result-org');
+
+        
 
     }) 
 })
