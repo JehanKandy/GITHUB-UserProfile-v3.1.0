@@ -478,7 +478,7 @@ form.addEventListener('submit', function(e){
         var name_org = document.getElementById('result-org');
 
         let org_all = `
-        
+            <h1>${org_data.}</h1>
         `;
 
         name_org.innerHTML = org_all;
