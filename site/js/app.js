@@ -468,12 +468,12 @@ form.addEventListener('submit', function(e){
     var org_name = document.forms["orgsearch"]["org_name"].value;
 
     if(git_user == "" || git_repo == ""){
-        alert("Username and Repository cannot be empty..!");
+        alert("Organization Name cannot be empty..!");
     }
 
     fetch("https://api.github.com/repos/"+git_user+"/"+git_repo)
-    .then((repo_result) => repo_result.json())
-    .then((repo_data) => {
+    .then((org_result) => org_result.json())
+    .then((org_data) => {
 
 
     }) 
