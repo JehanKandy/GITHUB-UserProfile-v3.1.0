@@ -459,3 +459,23 @@ form.addEventListener('submit', function(e){
         })      
     })   
 })
+
+var repoform = document.getElementById('reposearch');
+
+form.addEventListener('submit', function(e){
+    e.preventDefault()
+
+    var git_user = document.forms["reposearch"]["repos_user"].value;
+    var git_repo = document.forms["reposearch"]["repos_name"].value;
+
+    if(git_user == "" || git_repo == ""){
+        alert("Username and Repository cannot be empty..!");
+    }
+
+    fetch("https://api.github.com/repos/"+git_user+"/"+git_repo)
+    .then((repo_result) => repo_result.json())
+    .then((repo_data) => {
+
+
+    }) 
+})
