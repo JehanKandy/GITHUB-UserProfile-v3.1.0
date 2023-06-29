@@ -471,7 +471,7 @@ form.addEventListener('submit', function(e){
         alert("Organization Name cannot be empty..!");
     }
 
-    fetch("hhttps://api.github.com/orgs/"+org_name)
+    fetch("https://api.github.com/orgs/"+org_name)
     .then((org_result) => org_result.json())
     .then((org_data) => {
         
