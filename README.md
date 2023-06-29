@@ -152,10 +152,15 @@ new Achievements are still developing for the latest versions
 
 # Releases
 
-## release 3.0.1 (21 June 2023) - (Latest)
+## release 3.2.0 (21 June 2023) - (Latest)
 - - Update Github Repository Search
 - - - adding Repository forks
-## release 3.0.1 (21 June 2023) - (Latest)
+
+## release 3.0.1 (21 June 2023) 
+- - Update Github Repository Search
+- - - adding Repository forks
+
+## release 3.0.1 (21 June 2023) 
 - - Update Github Repository Search
 - - - adding Repository Stargazers
 - - - Repository Contributors
