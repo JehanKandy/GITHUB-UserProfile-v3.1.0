@@ -152,9 +152,10 @@ new Achievements are still developing for the latest versions
 
 # Releases
 
-## release 3.2.0 (21 June 2023) - (Latest)
+## release 3.2.0 (30 June 2023) - (Latest)
+- - Start to Develop the Organization category
 - - Update Github Repository Search
-- - - adding Repository forks
+- - - adding Repository Watchers
 
 ## release 3.0.1 (21 June 2023) 
 - - Update Github Repository Search
