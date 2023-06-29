@@ -467,7 +467,7 @@ form.addEventListener('submit', function(e){
 
     var org_name = document.forms["orgsearch"]["org_name"].value;
 
-    if(git_user == "" || git_repo == ""){
+    if(org_name == ""){
         alert("Organization Name cannot be empty..!");
     }
 
