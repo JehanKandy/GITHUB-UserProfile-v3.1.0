@@ -311,6 +311,8 @@ form.addEventListener('submit', function(e){
                 <br><br>
                 <h3>Repository Status</h3>
 
+                <h3>Watchers : </h3>
+
                 <div class='row'>
                     <div class='col-lg-6'>
                         <table class="table">
