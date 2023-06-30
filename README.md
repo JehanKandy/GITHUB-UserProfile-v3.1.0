@@ -160,7 +160,7 @@ new Achievements are still developing for the latest versions
 - - Update Github Repository Search
 - - - adding Repository Watchers
 
-## release 3.0.1 (21 June 2023) 
+## release 3.0.2 (21 June 2023) 
 - - Update Github Repository Search
 - - - adding Repository forks
 
